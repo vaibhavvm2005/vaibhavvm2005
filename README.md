@@ -2,11 +2,11 @@
 <h1 align="center">Hi 👋, I'm VAIBHAV VENKATESH MADIVAL</h1>
 <h3 align="center">A passionate backend developer from India</h3>
 
-- 🔭 I’m currently working on **python**
+- 🔭 I’m currently working on **python,C++**
 
-- 🌱 I’m currently learning **python,technology**
+- 🌱 I’m currently learning **python,technology,C++**
 
-- 💬 Ask me about **python**
+- 💬 Ask me about **python,C++**
 
 - 📫 How to reach me **vaibhavmadival331@gmail.com**
 
