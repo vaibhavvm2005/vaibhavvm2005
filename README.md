@@ -1,17 +1,21 @@
 <div align="center">
-
 <img src="./assets/banner.png" alt="Banner" width="100%" />
 
 <br><br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Vaibhav+Venkatesh+Madival;Backend+Developer+from+India;Python+%7C+C%2B%2B+%7C+SQL;Always+learning%2C+always+building." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Vaibhav+Venkatesh+Madival;Backend+Developer+%7C+India;Python+%C2%B7+C%2B%2B+%C2%B7+SQL;Building+reliable+systems%2C+one+commit+at+a+time." alt="Typing SVG" />
 
 [![Email](https://img.shields.io/badge/Email-vaibhavmadival331%40gmail.com-2F81F7?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vaibhavmadival331@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-2F81F7?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vaibhav-madival)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-vaibhav--madival-2F81F7?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vaibhav-madival)
+[![GitHub](https://img.shields.io/badge/GitHub-vaibhavvm2005-2F81F7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vaibhavvm2005)
 
 </div>
 
 <br>
+
+## About Me
+
+I'm a backend developer based in India, focused on building reliable, well-structured systems. I work primarily in Python, C++, and SQL, and I care about writing code that's clean enough for someone else to maintain at 2 a.m.
 
 ```python
 class Developer:
@@ -19,13 +23,12 @@ class Developer:
         self.name = "Vaibhav Venkatesh Madival"
         self.role = "Backend Developer"
         self.location = "India"
-        self.languages = ["Python", "C++", "SQL"]
-        self.currently_learning = ["Python", "SQL", "C++"]
+        self.core_stack = ["Python", "C++", "SQL"]
+        self.interests = ["System Design", "APIs", "Databases"]
         self.contact = "vaibhavmadival331@gmail.com"
 
     def say_hi(self):
-        print("Thanks for visiting my profile — let's build something reliable.")
-
+        print("Thanks for stopping by — let's build something reliable.")
 
 me = Developer()
 me.say_hi()
@@ -33,7 +36,7 @@ me.say_hi()
 
 <br>
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=python,cpp,django,mongodb,aws,figma,tailwind,kotlin,git,vscode" alt="Tech Stack" />
@@ -41,18 +44,30 @@ me.say_hi()
 
 <br>
 
-## 📌 Currently
+## Featured Projects
+
+> Replace these with your strongest 3–4 repos. Pin them on your profile too — this is what recruiters actually read.
+
+| Project | Description | Stack |
+|---|---|---|
+| **[Project Name](#)** | One sentence on the problem it solves and a notable design decision (e.g. schema design, caching, async handling). | `Python` `PostgreSQL` |
+| **[Project Name](#)** | What it does and why it's interesting technically, not just what it is. | `C++` |
+| **[Project Name](#)** | Same — focus on the engineering challenge, not the feature list. | `SQL` `Django` |
+
+<br>
+
+## Currently
 
 | | |
 |---|---|
 | 🔭 **Building with** | `Python` `C++` |
-| 🌱 **Learning** | `Python` `SQL` `C++` |
-| 💬 **Ask me about** | `Backend systems` `Python` `C++` |
-| 📫 **Contact** | [vaibhavmadival331@gmail.com](mailto:vaibhavmadival331@gmail.com) |
+| 🌱 **Deepening my knowledge of** | `SQL` `System Design` |
+| 💬 **Ask me about** | `Backend architecture` `APIs` `Databases` |
+| 📫 **Reach me at** | [vaibhavmadival331@gmail.com](mailto:vaibhavmadival331@gmail.com) |
 
 <br>
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=vaibhavvm2005&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
@@ -71,7 +86,7 @@ me.say_hi()
 
 <div align="center">
 
-### 🤝 Let's Connect
+**Let's Connect**
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-2F81F7?style=for-the-badge&logo=Linkedin&logoColor=white)](https://linkedin.com/in/vaibhav-madival)
 [![Gmail](https://img.shields.io/badge/-Gmail-2F81F7?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:vaibhavmadival331@gmail.com)
