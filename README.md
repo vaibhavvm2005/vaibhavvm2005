@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="./assets/banner.png" alt="Banner" width="100%" />
+
+<br><br>
+
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Vaibhav+Venkatesh+Madival;Backend+Developer+from+India;Python+%7C+C%2B%2B+%7C+SQL;Always+learning%2C+always+building." alt="Typing SVG" />
 
 [![Email](https://img.shields.io/badge/Email-vaibhavmadival331%40gmail.com-2F81F7?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vaibhavmadival331@gmail.com)
