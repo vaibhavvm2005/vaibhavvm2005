@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="./assets/hero_banner.png" alt="Hello World Banner" width="100%" />
+<img src="
+
+" alt="Hello World Banner" width="100%" />
 
 </div>
 
