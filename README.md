@@ -1,4 +1,5 @@
 <div align="center">
+
 <img src="./assets/banner.png" alt="Banner" width="100%" />
 
 <br><br>
@@ -15,7 +16,7 @@
 
 ## About Me
 
-I'm a backend developer based in India, focused on building reliable, well-structured systems. I work primarily in Python, C++, and SQL, and I care about writing code that's clean enough for someone else to maintain at 2 a.m.
+I'm a backend developer based in India, focused on building reliable, well-structured systems. I work primarily in **Python**, **C++**, and **SQL**, and I care about writing code that's clean enough for someone else to maintain at 2 a.m.
 
 ```python
 class Developer:
@@ -46,13 +47,13 @@ me.say_hi()
 
 ## Featured Projects
 
-> Replace these with your strongest 3–4 repos. Pin them on your profile too — this is what recruiters actually read.
+<!-- Replace these with your strongest 3-4 repos and pin them on your profile too — this is what recruiters actually read. -->
 
 | Project | Description | Stack |
 |---|---|---|
-| **[Project Name](#)** | One sentence on the problem it solves and a notable design decision (e.g. schema design, caching, async handling). | `Python` `PostgreSQL` |
-| **[Project Name](#)** | What it does and why it's interesting technically, not just what it is. | `C++` |
-| **[Project Name](#)** | Same — focus on the engineering challenge, not the feature list. | `SQL` `Django` |
+| **[Project Name](#)** | One-sentence problem statement and a notable design decision (e.g. schema design, caching, async handling). | `Python` `PostgreSQL` |
+| **[Project Name](#)** | What it does and why it's technically interesting, not just a feature list. | `C++` |
+| **[Project Name](#)** | Same approach — lead with the engineering challenge. | `SQL` `Django` |
 
 <br>
 
@@ -86,7 +87,7 @@ me.say_hi()
 
 <div align="center">
 
-**Let's Connect**
+### Let's Connect
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-2F81F7?style=for-the-badge&logo=Linkedin&logoColor=white)](https://linkedin.com/in/vaibhav-madival)
 [![Gmail](https://img.shields.io/badge/-Gmail-2F81F7?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:vaibhavmadival331@gmail.com)
