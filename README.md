@@ -21,7 +21,7 @@ I am a **Backend Developer** with a strong interest in **System Design, APIs, an
 
 </td>
 <td width="40%" align="center">
-<img src="./assets/bio_illustration.png" alt="Coding illustration" width="220" />
+<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" alt="Coding Vibe" width="220" />
 </td>
 </tr>
 </table>
@@ -29,8 +29,14 @@ I am a **Backend Developer** with a strong interest in **System Design, APIs, an
 
 ## Tech Stack
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,cpp,django,mongodb,aws,figma,tailwind,kotlin,git,vscode" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=python,cpp,c,js,html,css,mongodb,mysql,git" alt="Tech Stack" />
 </p>
+
+- 💻 **Languages:** Python, C++, C, JavaScript
+- 🗄️ **Databases:** MongoDB, SQL
+- 🌐 **Web:** HTML, CSS, REST APIs
+- 🔩 **Embedded:** C++ for IoT
+- 🔧 **Tools:** Git
 <br>
 
 ## Featured Projects
