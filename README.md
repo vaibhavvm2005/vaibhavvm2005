@@ -126,6 +126,19 @@ I am a **Backend Developer** with a strong interest in **System Design, APIs, an
 
 </div>
 
+## 🐍 Contribution Snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/vaibhavvm2005/vaibhavvm2005/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/vaibhavvm2005/vaibhavvm2005/output/github-contribution-grid-snake.svg">
+    <img alt="Snake eating my contributions"
+      src="https://raw.githubusercontent.com/vaibhavvm2005/vaibhavvm2005/output/github-contribution-grid-snake.svg">
+  </picture>
+</p>
+
 <!--
 STREAK STATS SETUP (fixes "Failed to retrieve contributions" error, ~2 minutes):
 1. In your profile repo (vaibhavvm2005/vaibhavvm2005), go to Settings > Actions > General > 
