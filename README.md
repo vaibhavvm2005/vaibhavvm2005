@@ -96,26 +96,6 @@ I am a **Backend Developer** with a strong interest in **System Design, APIs, an
 
 <br>
 
-## 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/vaibhavvm2005/vaibhavvm2005/output/github-snake-dark.svg" alt="Contribution Snake" width="100%" />
-</p>
-
-> **Setup needed:** the snake graph requires a one-time GitHub Action in your profile repo (`vaibhavvm2005/vaibhavvm2005`). Setup steps are below — it won't render until that's added.
-
-<br>
-
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=vaibhavvm2005&color=b5179e&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views" />
-
-</div>
-
-<br>
-
-<div align="center">
-
 ### 🤝 Let's Connect
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-b5179e?style=for-the-badge&logo=Linkedin&logoColor=white)](https://linkedin.com/in/vaibhav-madival)
