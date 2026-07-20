@@ -7,11 +7,13 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=B5179E&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Vaibhav+%F0%9F%91%8B;Backend+Developer;Systems+%26+API+Enthusiast;Always+Building+Something" alt="Typing SVG" />
 
 <p>
-  <img src="https://img.shields.io/badge/Focus-System%20Design-b5179e?style=flat-square" />
-  <img src="https://img.shields.io/badge/Focus-APIs-b5179e?style=flat-square" />
-  <img src="https://img.shields.io/badge/Focus-Databases-b5179e?style=flat-square" />
-  <img src="https://img.shields.io/badge/Focus-Embedded%20Systems-b5179e?style=flat-square" />
+  <img src="https://img.shields.io/badge/Focus-System%20Design-b5179e?style=for-the-badge&logo=target&logoColor=white" />
+  <img src="https://img.shields.io/badge/Focus-APIs-b5179e?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Focus-Databases-b5179e?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Focus-Embedded%20Systems-b5179e?style=for-the-badge&logo=arduino&logoColor=white" />
 </p>
+
+<img src="https://komarev.com/ghpvc/?username=vaibhavvm2005&label=Profile%20Views&color=b5179e&style=flat-square" alt="Profile Views" />
 
 </div>
 
@@ -19,7 +21,7 @@
 
 ## 👋 About Me
 
-I am a **Backend Developer** with a strong interest in **System Design, APIs, and Databases**. I work primarily in **Python, C++, and SQL**, and I care about writing code that's clean enough for someone else to maintain at 2 a.m.
+I'm a **Backend Developer** with a strong interest in **System Design, APIs, and Databases**. I work primarily in **Python, C++, and SQL**, and I care about writing code that's clean enough for someone else to maintain at 2 a.m.
 
 <table>
 <tr>
@@ -73,6 +75,23 @@ I am a **Backend Developer** with a strong interest in **System Design, APIs, an
 
 <br>
 
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=vaibhavvm2005&show_icons=true&theme=react&hide_border=true&count_private=true&rank_icon=github" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavvm2005&layout=compact&theme=react&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vaibhavvm2005/vaibhavvm2005/main/profile/streak.svg" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=vaibhavvm2005&theme=react&no-frame=true&row=1&column=6" alt="GitHub Trophies" />
+</p>
+
+<br>
+
 ## 📈 Activity Graph
 
 <p align="center">
@@ -80,16 +99,6 @@ I am a **Backend Developer** with a strong interest in **System Design, APIs, an
 </p>
 
 <br>
-
-### 🤝 Let's Connect
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-b5179e?style=for-the-badge&logo=Linkedin&logoColor=white)](https://linkedin.com/in/vaibhav-madival)
-[![Gmail](https://img.shields.io/badge/-Gmail-b5179e?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:vaibhavmadival331@gmail.com)
-[![GitHub](https://img.shields.io/badge/-GitHub-b5179e?style=for-the-badge&logo=Github&logoColor=white)](https://github.com/vaibhavvm2005)
-
-<sub>Thanks for stopping by — feel free to explore my repositories.</sub>
-
-</div>
 
 ## 🐍 Contribution Snake
 
@@ -104,72 +113,30 @@ I am a **Backend Developer** with a strong interest in **System Design, APIs, an
   </picture>
 </p>
 
+<br>
+
+<div align="center">
+
+### 🤝 Let's Connect
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-b5179e?style=for-the-badge&logo=Linkedin&logoColor=white)](https://linkedin.com/in/vaibhav-madival)
+[![Gmail](https://img.shields.io/badge/-Gmail-b5179e?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:vaibhavmadival331@gmail.com)
+[![GitHub](https://img.shields.io/badge/-GitHub-b5179e?style=for-the-badge&logo=Github&logoColor=white)](https://github.com/vaibhavvm2005)
+
+<sub>Thanks for stopping by — feel free to explore my repositories.</sub>
+
+</div>
+
 <!--
-STREAK STATS SETUP (fixes "Failed to retrieve contributions" error, ~2 minutes):
-1. In your profile repo (vaibhavvm2005/vaibhavvm2005), go to Settings > Actions > General > 
-   under "Workflow permissions" select "Read and write permissions" > Save.
-2. Create .github/workflows/streak-stats.yml with:
+SETUP NOTES (only needed once per workflow):
 
-   name: Update streak stats
-   on:
-     schedule:
-       - cron: "0 3 * * *"
-     workflow_dispatch: {}
-   jobs:
-     build:
-       runs-on: ubuntu-latest
-       permissions:
-         contents: write
-       steps:
-         - uses: actions/checkout@v4
-         - name: Generate streak stats
-           uses: DenverCoder1/github-readme-streak-stats@main
-           with:
-             options: user=vaibhavvm2005&theme=github-dark-blue&hide_border=true&disable_animations=true
-             path: profile/streak.svg
-             token: ${{ secrets.GITHUB_TOKEN }}
-         - name: Commit streak stats
-           run: |
-             git config user.name "github-actions[bot]"
-             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-             git add profile/streak.svg
-             git commit -m "Update streak stats" || exit 0
-             git push
+STREAK STATS — requires .github/workflows/streak-stats.yml (see repo history/chat for
+the exact YAML). Requires "Read and write permissions" under
+Settings > Actions > General > Workflow permissions.
 
-3. Commit and push. Go to the Actions tab and manually run the workflow once
-   (via "Run workflow") so profile/streak.svg gets created immediately — after
-   that it updates automatically every day at 03:00 UTC.
+SNAKE GRAPH — requires .github/workflows/snake.yml using Platane/snk@v3, publishing
+to the `output` branch via crazy-max/ghaction-github-pages@v4. Same permissions
+requirement as above.
 
-SNAKE GRAPH SETUP (one-time, ~2 minutes):
-1. In your profile repo (vaibhavvm2005/vaibhavvm2005), go to Settings > Actions > General > enable "Read and write permissions".
-2. Create .github/workflows/snake.yml with:
-
-   name: generate snake
-   on:
-     schedule:
-       - cron: "0 0 * * *"
-     workflow_dispatch: {}
-     push:
-       branches: [ main ]
-   jobs:
-     generate:
-       runs-on: ubuntu-latest
-       steps:
-         - uses: Platane/snk@v3
-           with:
-             github_user_name: ${{ github.repository_owner }}
-             outputs: |
-               dist/github-snake.svg
-               dist/github-snake-dark.svg?palette=github-dark
-         - uses: crazy-max/ghaction-github-pages@v4
-           with:
-             target_branch: output
-             build_dir: dist
-           env:
-             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-3. Commit and push. The Action creates an "output" branch containing github-snake.svg
-   and github-snake-dark.svg — the image in this README (github-snake-dark.svg) will
-   then render automatically. Go to the Actions tab and run it once manually via
-   "Run workflow" so it generates immediately instead of waiting for the next cron run.
+Run each workflow once manually via Actions > "Run workflow" after first commit.
 -->
