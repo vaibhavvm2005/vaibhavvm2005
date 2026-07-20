@@ -73,21 +73,6 @@ I am a **Backend Developer** with a strong interest in **System Design, APIs, an
 
 <br>
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=vaibhavvm2005&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavvm2005&layout=compact&theme=github_dark&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/vaibhavvm2005/vaibhavvm2005/main/profile/streak.svg" alt="GitHub Streak" />
-</p>
-
-> **Setup needed:** switched this from the public `streak-stats.demolab.com` service (which was failing to fetch contributions) to a self-generated SVG via GitHub Action — much more reliable. Setup steps are in the hidden comment at the bottom of this file.
-
-<br>
-
 ## 📈 Activity Graph
 
 <p align="center">
