@@ -1,25 +1,50 @@
 name: Update streak stats
+
 on:
   schedule:
-    - cron: "0 3 * * *"
-  workflow_dispatch: {}
+    - cron: "0 3 * * *"   # daily at 03:00 UTC
+  workflow_dispatch: {}    # allows manual "Run workflow" trigger
+
+concurrency:
+  group: streak-stats
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
 jobs:
-  build:
+  update-streak:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    timeout-minutes: 5
+
     steps:
-      - uses: actions/checkout@v4
-      - name: Generate streak stats
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate streak stats SVG
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          options: user=vaibhavvm2005&theme=github-dark-blue&hide_border=true&disable_animations=true
-          path: profile/streak.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Commit streak stats
+          user_id: vaibhavvm2005
+          theme: github-dark-blue
+          hide_border: true
+          disable_animations: true
+          exclude_days: ""
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Move output to profile folder
+        run: |
+          mkdir -p profile
+          mv github-readme-streak-stats.svg profile/streak.svg || true
+
+      - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/streak.svg
-          git commit -m "Update streak stats" || exit 0
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update streak stats [skip ci]"
+            git push
+          fi
