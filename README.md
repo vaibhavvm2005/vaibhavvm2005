@@ -21,19 +21,18 @@
 
 ## 👋 About Me
 
-I'm a **Backend Developer** with a strong interest in **System Design, APIs, and Databases**. I work primarily in **Python, C++, and SQL**, and I care about writing code that's clean enough for someone else to maintain at 2 a.m.
+I'm a Computer Science (Data Science) undergraduate with a focus on **backend systems, APIs, and databases**, and a growing interest in applying that foundation to **data-driven and AI-powered applications**.
 
 <table>
 <tr>
 <td width="60%" valign="top">
 
-- ⭐ Student of life :)
-- 🚀 Currently deepening my knowledge of **System Design** and **SQL**
-- 🛠️ Building reliable backend systems, one commit at a time
-- 🔩 Exploring **embedded C++ development for IoT**
-- 📫 Reach me at **[vaibhavmadival331@gmail.com](mailto:vaibhavmadival331@gmail.com)**
-- 🔗 Connect with me on **[LinkedIn](https://linkedin.com/in/vaibhav-madival)**
-- 💻 Check out my work on **[GitHub](https://github.com/vaibhavvm2005)**
+- 🎓 CS (Data Science) student, Alva's Institute of Engineering and Technology
+- 💼 Data Science Intern at **Unified Mentor Private Limited**
+- 📜 Certified in **Generative AI** and **Data Science**
+- 🛠️ Building backend systems and full-stack + AI projects, with an eye on clean, maintainable code
+- 🔩 Exploring embedded C++ development for IoT on the side
+- 📫 **[vaibhavmadival331@gmail.com](mailto:vaibhavmadival331@gmail.com)**  ·  **[LinkedIn](https://linkedin.com/in/vaibhav-madival)**  ·  **[GitHub](https://github.com/vaibhavvm2005)**
 
 </td>
 <td width="40%" align="center">
@@ -41,8 +40,6 @@ I'm a **Backend Developer** with a strong interest in **System Design, APIs, and
 </td>
 </tr>
 </table>
-
-<br>
 
 ## 🧰 Tech Stack
 
