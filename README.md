@@ -1,27 +1,27 @@
 <div align="center">
 
-  <!-- ======================== EDITORIAL HERO BANNER ======================== -->
-  <img src="assets/hero.svg" alt="Vaibhav Madival - Creative Developer & AI Engineer" width="100%" />
+  <!-- ======================== EMILIAN-INSPIRED HERO ======================== -->
+  <img src="assets/hero.svg" alt="say hello to your creative data scientist" width="100%" />
 
   <br /><br />
 
   <!-- DYNAMIC TYPING -->
   <p align="center">
     <a href="https://github.com/vaibhavvm2005">
-      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2400&pause=1200&color=38BDF8&center=true&vCenter=true&multiline=false&width=450&height=40&lines=DATA;MODELS;SYSTEMS;IDEAS" alt="Rotating Creative Developer Subtitle" />
+      <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=19&duration=2600&pause=1200&color=0FD6D9&center=true&vCenter=true&multiline=false&width=550&height=40&lines=Building+intelligent+digital+systems.;Turning+raw+data+into+decisions.;Engineering+production-ready+ML+systems." alt="Creative Data Scientist Typing" />
     </a>
   </p>
 
   <br />
 
-  <!-- MINIMAL ACTION PILLS -->
+  <!-- NAVIGATION PILLS -->
   <p align="center">
-    <a href="#01--selected-work">
-      <img src="https://img.shields.io/badge/01_%2F_SELECTED_WORK-080A0F?style=for-the-badge&logoColor=38BDF8&labelColor=080A0F&color=1E293B" alt="Selected Work" />
+    <a href="#-selected-work">
+      <img src="https://img.shields.io/badge/Selected_Work-080808?style=for-the-badge&logoColor=0FD6D9&labelColor=080808&color=1A1A1A" alt="Selected Work" />
     </a>
-    &nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;
     <a href="#-contact">
-      <img src="https://img.shields.io/badge/02_%2F_GET_IN_TOUCH-080A0F?style=for-the-badge&logoColor=38BDF8&labelColor=080A0F&color=1E293B" alt="Get In Touch" />
+      <img src="https://img.shields.io/badge/Get_In_Touch-080808?style=for-the-badge&logoColor=0FD6D9&labelColor=080808&color=1A1A1A" alt="Get In Touch" />
     </a>
   </p>
 
@@ -31,47 +31,30 @@
 
 ---
 
-### 📖 The Narrative // Story
+### 📖 The Journey
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>01 — STARTED WITH CODE</h4>
-      <p>
-        I began with programming out of curiosity for how logic translates into software. As I built my first applications, I became fascinated by how computing can solve tangible problems.
-      </p>
-      <h4>02 — DISCOVERED DATA</h4>
-      <p>
-        Working with exploratory data showed me that raw numbers conceal the deepest strategic answers. Learning to clean, model, and visualize data transformed how I approach engineering.
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4>03 — BUILT WITH AI</h4>
-      <p>
-        Stepping into machine learning and neural architectures bridged mathematics with predictive power. It allowed me to engineer systems that learn, generalize, and forecast.
-      </p>
-      <h4>04 — NOW</h4>
-      <p>
-        Today, I focus on building practical, end-to-end intelligent systems: from raw datasets and statistical validation to low-latency APIs and containerized cloud deployments.
-      </p>
-    </td>
-  </tr>
-</table>
+<br />
 
----
+<!-- STORY PHASE 1 -->
+<div align="center">
+  <img src="assets/story-phase1.svg" alt="Story Phase 1: I started with code and algorithms" width="100%" />
+</div>
 
-### 🧩 Creative Code // The Intersection
+<br />
 
-```python
-# The Intersection of Code, Data & Intelligence
-dataset     =  ingest_data("telemetry_stream.sql")
-pipeline    =  FeatureEngineering(scaling="standard", encoding="target")
-model       =  XGBClassifier(n_estimators=500, learning_rate=0.03).fit(X_train, y_train)
+<!-- STORY PHASE 2 -->
+<div align="center">
+  <img src="assets/story-phase2.svg" alt="Story Phase 2: Then I discovered Data Science - and loved it" width="100%" />
+</div>
 
-# From Research Experimentation to Production API
-prediction  =  model.predict(X_test)
-app         =  FastAPI(title="Inference Microservice", version="2.0")
-```
+<br />
+
+<!-- STORY PHASE 3 -->
+<div align="center">
+  <img src="assets/story-phase3.svg" alt="Story Phase 3: I started building what I design - and I stuck with it" width="100%" />
+</div>
+
+<br />
 
 ---
 
@@ -80,29 +63,29 @@ app         =  FastAPI(title="Inference Microservice", version="2.0")
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>📊 DATA</h3>
+      <h3>01 / DATA</h3>
       <p>
-        I turn high-dimensional, unstructured datasets into meaningful statistical insights, feature distributions, and actionable decision pipelines.
+        I transform complex, high-dimensional datasets into structured statistical insight, feature distributions, and actionable decision pipelines.
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🤖 MACHINE LEARNING</h3>
+      <h3>02 / MACHINE LEARNING</h3>
       <p>
-        I build, tune, and evaluate predictive architectures designed for real-world generalization, robust performance, and measurable business impact.
+        I design, evaluate, and fine-tune predictive models with Scikit-learn and XGBoost, engineered for real-world reliability and generalization.
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🧠 AI APPLICATIONS</h3>
+      <h3>03 / AI APPLICATIONS</h3>
       <p>
-        I engineer user-facing intelligent applications utilizing speech recognition, privacy-preserving PII masking, and IoT edge computation.
+        I build intelligent user-facing systems with speech recognition (Whisper), privacy-preserving PII redaction (Presidio), and edge intelligence.
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>⚙️ ENGINEERING &amp; MLOPS</h3>
+      <h3>04 / ENGINEERING &amp; MLOPS</h3>
       <p>
-        I bridge the gap between notebook experiments and production environments through FastAPI microservices, Docker containers, and AWS deployments.
+        I turn machine learning models into high-throughput FastAPI REST microservices, containerized with Docker, and deployed on AWS.
       </p>
     </td>
   </tr>
@@ -110,103 +93,72 @@ app         =  FastAPI(title="Inference Microservice", version="2.0")
 
 ---
 
-### 01 / Selected Work
+### 🚀 Selected Work
 
 <br />
 
-#### 01 // CUSTOMER CHURN PREDICTION &amp; MLOPS
-
-> **Classification:** `Machine Learning` • `MLOps` • `Cloud Deployment`
-
+<!-- PROJECT 1 CARD -->
 <div align="center">
-  <img src="assets/project-01.svg" alt="Customer Churn Prediction Architecture and Metric Preview" width="100%" />
+  <a href="https://github.com/vaibhavvm2005/customer-churn-prediction">
+    <img src="assets/project-card-1.svg" alt="Project 1: Customer Churn Prediction & MLOps Pipeline" width="100%" />
+  </a>
 </div>
 
 <br />
 
-An end-to-end predictive machine learning solution engineered to identify customer attrition risk with precision and operationalize model inference at scale.
-
-- **Data Engineering:** Comprehensive exploratory data analysis, class imbalance handling, and automated feature encoding with Pandas.
-- **Model Optimization:** Trained gradient-boosted decision trees using **XGBoost** with cross-validated ROC-AUC optimization.
-- **Experiment Tracking:** Full parameter tuning, metrics logging, and artifact management tracked via **MLflow**.
-- **Production Serving:** Low-latency prediction REST API built with **FastAPI**, containerized in **Docker**, and prepared for **AWS** cloud deployment.
-
-```
-STACK: Python • Pandas • Scikit-learn • XGBoost • MLflow • FastAPI • Docker • AWS
-```
-
-🔗 <a href="https://github.com/vaibhavvm2005/customer-churn-prediction"><b>[Explore GitHub Repository]</b></a>
-
-<br /><br />
-
----
-
-#### 02 // MENTAL HEALTH AI ASSISTANT
-
-> **Classification:** `Artificial Intelligence` • `Speech Processing` • `Privacy Protection`
-
+<!-- PROJECT 2 CARD -->
 <div align="center">
-  <img src="assets/project-02.svg" alt="Mental Health AI Assistant Speech and Privacy Pipeline" width="100%" />
+  <a href="https://github.com/vaibhavvm2005/mental-health-ai-assistant">
+    <img src="assets/project-card-2.svg" alt="Project 2: Mental Health AI Assistant" width="100%" />
+  </a>
 </div>
 
 <br />
 
-A privacy-conscious conversational companion for audio reflection, sentiment journaling, and automated PII protection.
-
-- **Audio Processing:** Real-time speech-to-text vocal transcription powered by **OpenAI Whisper**.
-- **Privacy Sanitization:** Real-time Personally Identifiable Information (PII) detection and redaction using **Microsoft Presidio**.
-- **Dialogue Engine:** Context-aware empathetic responses and longitudinal sentiment tracking.
-- **User Interface:** Lightweight, accessible, and responsive frontend built in **Streamlit**.
-
-```
-STACK: Python • Whisper • Microsoft Presidio • Streamlit • NLP
-```
-
-🔗 <a href="https://github.com/vaibhavvm2005/mental-health-ai-assistant"><b>[Explore GitHub Repository]</b></a>
-
-<br /><br />
-
----
-
-#### 03 // AGRIGITA — SMART WATER MANAGEMENT SYSTEM
-
-> **Classification:** `Edge AI` • `IoT` • `Smart Agriculture`
-
-An intelligent IoT and Edge-AI agricultural framework that automates precision irrigation based on real-time soil telemetry.
-
-- **Edge Intelligence:** On-device analytics and threshold evaluation executed on the **NVIDIA Jetson Nano**.
-- **Continuous Telemetry:** Real-time soil moisture, humidity, and temperature monitoring via connected micro-sensors.
-- **Automated Actuation:** Algorithmic relay switching for irrigation valves to eliminate agricultural water waste.
-- **Conservation:** Delivers optimal crop hydration while reducing resource consumption.
-
-```
-STACK: IoT Sensors • NVIDIA Jetson Nano • Python • Embedded Systems
-```
-
-🔗 <a href="https://github.com/vaibhavvm2005/agrigita-smart-water-management"><b>[Explore GitHub Repository]</b></a>
-
-<br /><br />
-
----
-
-#### 04 // TASK MANAGER PRO
-
-> **Classification:** `Full Stack Engineering` • `Web Application`
-
-A full-stack productivity orchestrator built with the MERN architecture for high-velocity project workflow tracking.
-
-- **RESTful Architecture:** High-throughput CRUD lifecycle endpoints built on Express.js and Node.js.
-- **Data Discovery:** Real-time multi-criteria filtering, search, and dynamic column sorting algorithms.
-- **Visual Analytics:** Dashboard metrics detailing task progress, priority distribution, and velocity.
-- **Persistence:** Schema validation and indexed query optimization in MongoDB.
-
-```
-STACK: MongoDB • Express.js • React.js • Node.js • REST APIs
-```
-
-🔗 <a href="https://github.com/vaibhavvm2005/task-manager-pro"><b>[Explore GitHub Repository]</b></a>
-
-<br />
+<table>
+  <!-- PROJECT 3 -->
+  <tr>
+    <td width="50%" valign="top">
+      <span style="color: #00A3FF; font-weight: 700; font-size: 11px;">PROJECT 03</span>
+      <h3>🌱 AgriGita — Smart Water Management</h3>
+      <p>
+        An IoT and Edge-AI agricultural platform built for automated soil telemetry and precision irrigation actuation.
+      </p>
+      <ul>
+        <li>On-device edge computation powered by the <b>NVIDIA Jetson Nano</b>.</li>
+        <li>Continuous telemetry ingestion for soil moisture, humidity, and temperature.</li>
+        <li>Automated algorithmic pump switching based on dynamic soil thresholds.</li>
+        <li>Significantly reduces water consumption while maintaining crop hydration.</li>
+      </ul>
+      <p>
+        <code>IoT Sensors</code> • <code>NVIDIA Jetson Nano</code> • <code>Python</code> • <code>Edge AI</code>
+      </p>
+      <p>
+        🔗 <a href="https://github.com/vaibhavvm2005/agrigita-smart-water-management"><b>[Explore Repository]</b></a>
+      </p>
+    </td>
+    <!-- PROJECT 4 -->
+    <td width="50%" valign="top">
+      <span style="color: #00A3FF; font-weight: 700; font-size: 11px;">PROJECT 04</span>
+      <h3>⚡ Task Manager Pro</h3>
+      <p>
+        A full-stack productivity and task management platform built with the MERN stack for high-throughput project workflow tracking.
+      </p>
+      <ul>
+        <li>Modular RESTful API endpoints for complete task lifecycle (CRUD) operations.</li>
+        <li>Multi-criteria filtering, real-time search, and dynamic column sorting.</li>
+        <li>Interactive dashboard charts detailing task completion metrics and velocity.</li>
+        <li>Schema validation and indexed query optimization with MongoDB.</li>
+      </ul>
+      <p>
+        <code>MongoDB</code> • <code>Express.js</code> • <code>React.js</code> • <code>Node.js</code> • <code>REST APIs</code>
+      </p>
+      <p>
+        🔗 <a href="https://github.com/vaibhavvm2005/task-manager-pro"><b>[Explore Repository]</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -251,15 +203,15 @@ STACK: MongoDB • Express.js • React.js • Node.js • REST APIs
   <table border="0">
     <tr>
       <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=vaibhavvm2005&show_icons=true&theme=tokyonight&hide_border=false&title_color=38bdf8&icon_color=818cf8&text_color=94a3b8&bg_color=080a0f&border_color=1e293b" alt="GitHub Profile Metrics" width="100%" />
+        <img src="https://github-readme-stats.vercel.app/api?username=vaibhavvm2005&show_icons=true&theme=tokyonight&hide_border=false&title_color=0fd6d9&icon_color=43e5d8&text_color=94a3b8&bg_color=080808&border_color=1f1f1f" alt="GitHub Profile Metrics" width="100%" />
       </td>
       <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavvm2005&layout=compact&theme=tokyonight&hide_border=false&title_color=38bdf8&text_color=94a3b8&bg_color=080a0f&border_color=1e293b" alt="Top Languages Metrics" width="100%" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavvm2005&layout=compact&theme=tokyonight&hide_border=false&title_color=0fd6d9&text_color=94a3b8&bg_color=080808&border_color=1f1f1f" alt="Top Languages Metrics" width="100%" />
       </td>
     </tr>
     <tr>
       <td align="center" colspan="2">
-        <img src="https://streak-stats.demolab.com/?user=vaibhavvm2005&theme=tokyonight&hide_border=false&stroke=38bdf8&ring=38bdf8&fire=818cf8&currStreakNum=38bdf8&sideNums=38bdf8&sideLabels=94a3b8&currStreakLabel=38bdf8&background=080a0f&border_radius=8" alt="GitHub Streak Metrics" width="100%" />
+        <img src="https://streak-stats.demolab.com/?user=vaibhavvm2005&theme=tokyonight&hide_border=false&stroke=0fd6d9&ring=0fd6d9&fire=43e5d8&currStreakNum=0fd6d9&sideNums=0fd6d9&sideLabels=94a3b8&currStreakLabel=0fd6d9&background=080808&border_radius=8" alt="GitHub Streak Metrics" width="100%" />
       </td>
     </tr>
   </table>
@@ -278,9 +230,9 @@ STACK: MongoDB • Express.js • React.js • Node.js • REST APIs
 
 ### 🧪 Currently Exploring
 
-- 🧠 **Generative AI & LLMs:** RAG architectures, prompt orchestration, and transformer fine-tuning.
+- 🧠 **Generative AI & LLMs:** RAG architectures, prompt engineering, and transformer fine-tuning.
 - ⚡ **Production MLOps:** Real-time drift detection, model evaluation loops, and feature stores.
-- ☁️ **Cloud Data Engineering:** Distributed pipelines, high-dimensional vector search, and cloud-native microservices.
+- ☁️ **Cloud Data Engineering:** Distributed pipelines, vector search, and cloud-native microservices.
 
 ---
 
@@ -304,31 +256,25 @@ STACK: MongoDB • Express.js • React.js • Node.js • REST APIs
 
 <div align="center">
 
-### 📬 Contact
+  <!-- ======================== FOOTER CTA ======================== -->
+  <img src="assets/footer-cta.svg" alt="Let's build something useful." width="100%" />
 
-<br />
+  <br /><br />
 
-```
-HAVE AN IDEA?
-LET'S BUILD SOMETHING USEFUL.
-```
+  <a href="https://github.com/vaibhavvm2005" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-080808?style=for-the-badge&logo=github&logoColor=0FD6D9&labelColor=080808&color=1A1A1A" alt="GitHub" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/vaibhav-madival" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-080808?style=for-the-badge&logo=linkedin&logoColor=0077B5&labelColor=080808&color=1A1A1A" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:vaibhavmadival331@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-080808?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=080808&color=1A1A1A" alt="Email" />
+  </a>
 
-<br />
+  <br /><br />
 
-<a href="https://github.com/vaibhavvm2005" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-080A0F?style=for-the-badge&logo=github&logoColor=38BDF8&labelColor=080A0F&color=1E293B" alt="GitHub" />
-</a>
-&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/vaibhav-madival" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-080A0F?style=for-the-badge&logo=linkedin&logoColor=0077B5&labelColor=080A0F&color=1E293B" alt="LinkedIn" />
-</a>
-&nbsp;&nbsp;
-<a href="mailto:vaibhavmadival331@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Email-080A0F?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=080A0F&color=1E293B" alt="Email" />
-</a>
-
-<br /><br />
-
-<p><i>"Code is the medium. Data is the foundation. Intelligence is the craft."</i></p>
+  <p><i>"Design meets code. Data meets intelligence."</i></p>
 
 </div>
