@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F17"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="curveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="700" height="160" rx="10" fill="url(#cardGrad1)" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Left: Metric / Feature Stream Visualization -->
+  <g transform="translate(30, 30)">
+    <text x="0" y="0" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" letter-spacing="1">SYSTEM METRIC // ROC-AUC</text>
+    <text x="0" y="32" fill="#38BDF8" font-family="'Inter', sans-serif" font-size="28" font-weight="800">0.942</text>
+    <text x="0" y="52" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="9">Cross-Validated Accuracy</text>
+    
+    <text x="0" y="85" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" letter-spacing="1">API INFERENCE LATENCY</text>
+    <text x="0" y="105" fill="#10B981" font-family="'Inter', sans-serif" font-size="16" font-weight="700">&lt; 14.2 ms (FastAPI)</text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="240" y1="20" x2="240" y2="140" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Right: ROC Curve & Pipeline Vector Representation -->
+  <g transform="translate(270, 20)">
+    <text x="0" y="10" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600">PREDICTIVE PIPELINE LINEAGE</text>
+    
+    <!-- Grid -->
+    <path d="M 0 110 L 380 110" stroke="#334155" stroke-width="0.8"/>
+    <path d="M 0 110 L 0 25" stroke="#334155" stroke-width="0.8"/>
+    
+    <!-- Diagonal Benchmark -->
+    <line x1="0" y1="110" x2="380" y2="25" stroke="#334155" stroke-dasharray="3 3" stroke-width="0.8"/>
+    
+    <!-- Model Curve -->
+    <path d="M 0 110 Q 50 35, 180 30 T 380 25" fill="none" stroke="url(#curveGrad)" stroke-width="2.5"/>
+
+    <!-- Architecture flow pill tags -->
+    <g transform="translate(0, 118)">
+      <text x="0" y="0" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="8.5">
+        RAW DATA ──► XGBOOST MODEL ──► MLFLOW ──► DOCKER / AWS
+      </text>
+    </g>
+  </g>
+</svg>

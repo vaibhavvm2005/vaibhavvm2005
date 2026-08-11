@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="editorialBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080A0F"/>
+      <stop offset="60%" stop-color="#0E121B"/>
+      <stop offset="100%" stop-color="#080A0F"/>
+    </linearGradient>
+
+    <linearGradient id="editorialText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="80%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+
+    <style>
+      .floating-particle {
+        animation: floatParticle 8s ease-in-out infinite alternate;
+      }
+      .wave-line {
+        animation: waveAnim 6s ease-in-out infinite alternate;
+      }
+      @keyframes floatParticle {
+        0% { transform: translateY(0px) translateX(0px); opacity: 0.2; }
+        50% { transform: translateY(-8px) translateX(5px); opacity: 0.6; }
+        100% { transform: translateY(0px) translateX(0px); opacity: 0.2; }
+      }
+      @keyframes waveAnim {
+        0% { stroke-dashoffset: 0; opacity: 0.3; }
+        100% { stroke-dashoffset: 20; opacity: 0.7; }
+      }
+    </style>
+  </defs>
+
+  <!-- Editorial Background Frame -->
+  <rect width="1000" height="320" rx="16" fill="url(#editorialBg)" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Minimal Fine Dot Pattern -->
+  <pattern id="fineGrid" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="12" cy="12" r="0.6" fill="#334155" opacity="0.4"/>
+  </pattern>
+  <rect width="1000" height="320" fill="url(#fineGrid)"/>
+
+  <!-- Creative Coding Flow Lines (Curved Signal Paths) -->
+  <path d="M 50 160 Q 250 60, 500 160 T 950 160" fill="none" stroke="#1E293B" stroke-width="1.2"/>
+  <path d="M 80 220 Q 350 280, 650 180 T 920 220" fill="none" stroke="#1E293B" stroke-width="1" stroke-dasharray="3 3"/>
+  <path d="M 120 100 Q 400 30, 700 120 T 900 80" fill="none" stroke="url(#accentCyan)" stroke-width="1" opacity="0.4" class="wave-line"/>
+
+  <!-- Subtle Drifting Particles -->
+  <circle cx="180" cy="90" r="2" fill="#38BDF8" class="floating-particle"/>
+  <circle cx="340" cy="220" r="2.5" fill="#818CF8" class="floating-particle"/>
+  <circle cx="680" cy="80" r="2" fill="#38BDF8" class="floating-particle"/>
+  <circle cx="820" cy="240" r="2.5" fill="#818CF8" class="floating-particle"/>
+
+  <!-- Top Editorial Index Tag -->
+  <g transform="translate(60, 50)">
+    <circle cx="0" cy="0" r="3.5" fill="#10B981"/>
+    <text x="14" y="3.5" fill="#94A3B8" font-family="'Inter', -apple-system, sans-serif" font-size="10" font-weight="600" letter-spacing="1.5">
+      VAIBHAV MADIVAL  //  DATA SCIENCE &amp; AI ENGINEER
+    </text>
+  </g>
+
+  <!-- Massive Editorial Heading -->
+  <text x="60" y="115" fill="#94A3B8" font-family="'Inter', -apple-system, sans-serif" font-size="14" font-weight="700" letter-spacing="2">
+    HEY, I'M VAIBHAV.
+  </text>
+  
+  <text x="60" y="170" fill="url(#editorialText)" font-family="'Inter', -apple-system, 'Segoe UI', sans-serif" font-size="44" font-weight="900" letter-spacing="-1">
+    I BUILD INTELLIGENT
+  </text>
+  
+  <text x="60" y="225" fill="url(#accentCyan)" font-family="'Inter', -apple-system, 'Segoe UI', sans-serif" font-size="44" font-weight="900" letter-spacing="-1">
+    DIGITAL SYSTEMS.
+  </text>
+
+  <!-- Editorial Sub-line -->
+  <text x="60" y="275" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="500" letter-spacing="1">
+    DATA SCIENCE  •  MACHINE LEARNING  •  PRODUCTION APIS  •  CLOUD
+  </text>
+</svg>
