@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="100%" height="100%">
+  <defs>
+    <!-- Vercel / Linear inspired deep dark gradient -->
+    <linearGradient id="bgCanvas" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080B11"/>
+      <stop offset="50%" stop-color="#0D111A"/>
+      <stop offset="100%" stop-color="#080B11"/>
+    </linearGradient>
+
+    <!-- Subtle radial glow -->
+    <radialGradient id="ambientGlow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.12"/>
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#080B11" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Linear typography gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="70%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <!-- Keyframe Animations -->
+    <style>
+      .pulse-dot {
+        animation: pulse 4s ease-in-out infinite alternate;
+      }
+      .flow-pulse {
+        animation: flow 6s linear infinite;
+      }
+      .node-glow {
+        animation: glow 3s ease-in-out infinite alternate;
+      }
+      @keyframes pulse {
+        0% { opacity: 0.3; transform: scale(0.9); }
+        100% { opacity: 0.9; transform: scale(1.1); }
+      }
+      @keyframes glow {
+        0% { filter: drop-shadow(0 0 2px rgba(56, 189, 248, 0.4)); }
+        100% { filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.9)); }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1000" height="260" rx="12" fill="url(#bgCanvas)" stroke="#1E293B" stroke-width="1"/>
+  <rect width="1000" height="260" rx="12" fill="url(#ambientGlow)"/>
+
+  <!-- Minimal Fine Dot Grid -->
+  <pattern id="dotGrid" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+    <circle cx="15" cy="15" r="0.8" fill="#334155" opacity="0.6"/>
+  </pattern>
+  <rect width="1000" height="260" fill="url(#dotGrid)"/>
+
+  <!-- Connected Subtle Data Flow Constellation -->
+  <g stroke="#334155" stroke-width="0.8" opacity="0.5">
+    <line x1="120" y1="130" x2="280" y2="80"/>
+    <line x1="280" y1="80" x2="450" y2="140"/>
+    <line x1="450" y1="140" x2="620" y2="70"/>
+    <line x1="620" y1="70" x2="780" y2="120"/>
+    <line x1="780" y1="120" x2="900" y2="70"/>
+
+    <line x1="280" y1="80" x2="350" y2="190"/>
+    <line x1="350" y1="190" x2="520" y2="210"/>
+    <line x1="520" y1="210" x2="620" y2="70"/>
+    <line x1="520" y1="210" x2="740" y2="190"/>
+    <line x1="740" y1="190" x2="780" y2="120"/>
+  </g>
+
+  <!-- Glowing Connection Overlays -->
+  <g stroke="url(#lineGrad)" stroke-width="1.2" opacity="0.7">
+    <line x1="280" y1="80" x2="450" y2="140" stroke-dasharray="4 6"/>
+    <line x1="450" y1="140" x2="620" y2="70" stroke-dasharray="4 6"/>
+    <line x1="520" y1="210" x2="740" y2="190" stroke-dasharray="4 6"/>
+  </g>
+
+  <!-- Node Dots -->
+  <circle cx="120" cy="130" r="2.5" fill="#64748B"/>
+  <circle cx="280" cy="80" r="3.5" fill="#38BDF8" class="pulse-dot"/>
+  <circle cx="450" cy="140" r="4" fill="#818CF8" class="node-glow"/>
+  <circle cx="620" cy="70" r="3.5" fill="#38BDF8" class="pulse-dot"/>
+  <circle cx="780" cy="120" r="3.5" fill="#818CF8" class="pulse-dot"/>
+  <circle cx="900" cy="70" r="2.5" fill="#64748B"/>
+  <circle cx="350" cy="190" r="3" fill="#64748B"/>
+  <circle cx="520" cy="210" r="3.5" fill="#38BDF8" class="pulse-dot"/>
+  <circle cx="740" cy="190" r="3" fill="#64748B"/>
+
+  <!-- Clean Minimalist Header Content -->
+  <!-- Status Chip -->
+  <g transform="translate(500, 50)">
+    <rect x="-85" y="-12" width="170" height="24" rx="12" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="-65" cy="0" r="3.5" fill="#10B981"/>
+    <text x="-52" y="3.5" fill="#94A3B8" font-family="'Inter', -apple-system, sans-serif" font-size="9.5" font-weight="600" letter-spacing="0.5">OPEN TO OPPORTUNITIES</text>
+  </g>
+
+  <!-- Main Name Display -->
+  <text x="500" y="115" fill="url(#textGrad)" font-family="'Inter', -apple-system, 'Segoe UI', sans-serif" font-size="36" font-weight="800" letter-spacing="-0.5" text-anchor="middle">
+    Vaibhav Madival
+  </text>
+
+  <!-- Clean Subtitle -->
+  <text x="500" y="152" fill="#38BDF8" font-family="'Inter', -apple-system, sans-serif" font-size="13.5" font-weight="600" letter-spacing="1.2" text-anchor="middle">
+    DATA SCIENCE  •  AI / MACHINE LEARNING  •  SOFTWARE ENGINEERING
+  </text>
+
+  <!-- Clean Monospace Description -->
+  <text x="500" y="195" fill="#64748B" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="11" font-weight="400" letter-spacing="0.2" text-anchor="middle">
+    Building intelligent systems, scalable APIs, and production ML pipelines
+  </text>
+</svg>
