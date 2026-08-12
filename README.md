@@ -104,7 +104,7 @@ My engineering philosophy is simple: machine learning is only as valuable as the
 <h2 style="font-family: 'Times New Roman', Times, 'Georgia', serif;" class="text-2xl font-bold text-slate-100 flex items-center gap-2 border-b border-slate-800 pb-2">🎓 Education &amp; Background</h2>
 
 ```
-┌── [ 2022 — 2026 ] ─────────────────────────────────────────────────────────────────┐
+┌── [ 2023 — 2027 ] ─────────────────────────────────────────────────────────────────┐
 │  B.E. in Computer Science & Engineering (Data Science)                             │
 │  Alva's Institute of Engineering and Technology (AIET)                             │
 │  Affiliated with Visvesvaraya Technological University (VTU), Karnataka            │
@@ -308,7 +308,7 @@ My engineering philosophy is simple: machine learning is only as valuable as the
 
 <br />
 
-<h2 style="font-family: 'Times New Roman', Times, 'Georgia', serif;" class="text-2xl font-bold text-slate-100 flex items-center gap-2 border-b border-slate-800 pb-2">🔭 // Current Focus</h2>
+<h2 style="font-family: 'Times New Roman', Times, 'Georgia', serif;" class="text-2xl font-bold text-slate-100 flex items-center gap-2 border-b border-slate-800 pb-2">🔭 Current Focus</h2>
 
 ```
 CURRENTLY EXPLORING
@@ -328,7 +328,7 @@ CURRENTLY EXPLORING
 
 <br />
 
-<h2 style="font-family: 'Times New Roman', Times, 'Georgia', serif;" class="text-2xl font-bold text-slate-100 flex items-center gap-2 border-b border-slate-800 pb-2">📊 // GitHub Activity</h2>
+<h2 style="font-family: 'Times New Roman', Times, 'Georgia', serif;" class="text-2xl font-bold text-slate-100 flex items-center gap-2 border-b border-slate-800 pb-2">📊 GitHub Activity</h2>
 
 <div align="center" class="my-6">
 
@@ -368,7 +368,7 @@ CURRENTLY EXPLORING
 
 <br />
 
-<h2 style="font-family: 'Times New Roman', Times, 'Georgia', serif;" class="text-2xl font-bold text-slate-100 flex items-center gap-2 border-b border-slate-800 pb-2">🌐 // Let's Connect</h2>
+<h2 style="font-family: 'Times New Roman', Times, 'Georgia', serif;" class="text-2xl font-bold text-slate-100 flex items-center gap-2 border-b border-slate-800 pb-2">🌐 Let's Connect</h2>
 
 <p class="text-slate-400 italic my-3 text-center">
   Have an idea, opportunity, or interesting problem? Let's talk.
