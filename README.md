@@ -28,7 +28,7 @@
 
 <br />
 
-<h2 style="font-family: 'Times New Roman', Times, 'Georgia', serif;" class="text-2xl font-bold text-slate-100 flex items-center gap-2 border-b border-slate-800 pb-2">👤 // About Me</h2>
+<h2 style="font-family: 'Times New Roman', Times, 'Georgia', serif;" class="text-2xl font-bold text-slate-100 flex items-center gap-2 border-b border-slate-800 pb-2">👤 About Me</h2>
 
 <p class="text-slate-300 leading-relaxed my-4 text-base">
 I am a final-year <strong>Computer Science & Engineering (Data Science)</strong> student at Alva's Institute of Engineering and Technology (affiliated with VTU, Karnataka). I focus on building practical, production-ready machine learning systems, data pipelines, and scalable backend services.
@@ -43,7 +43,7 @@ My engineering philosophy is simple: machine learning is only as valuable as the
 <table class="w-full bg-slate-950 border border-slate-800 rounded-xl overflow-hidden shadow-xl" width="100%">
   <tr class="bg-slate-900/60">
     <td width="50%" valign="top" class="p-5 border border-slate-800">
-      <h4 style="font-family: 'Times New Roman', Times, serif;" class="text-lg font-bold text-cyan-400 mb-2">01 / Predictive Modeling &amp; Tabular ML</h4>
+      <h4 style="font-family: 'Times New Roman', Times, serif;" class="text-lg font-bold text-cyan-400 mb-2">01  Predictive Modeling &amp; Tabular ML</h4>
       <p class="text-slate-300 text-sm leading-relaxed mb-3">
         End-to-end supervised pipelines: cross-validation, hyperparameter tuning with Optuna, collinearity reduction, and tree ensembles (XGBoost, LightGBM, Random Forest) with SHAP interpretability.
       </p>
@@ -55,7 +55,7 @@ My engineering philosophy is simple: machine learning is only as valuable as the
       </div>
     </td>
     <td width="50%" valign="top" class="p-5 border border-slate-800">
-      <h4 style="font-family: 'Times New Roman', Times, serif;" class="text-lg font-bold text-cyan-400 mb-2">02 / Speech AI &amp; Privacy-First NLP</h4>
+      <h4 style="font-family: 'Times New Roman', Times, serif;" class="text-lg font-bold text-cyan-400 mb-2">02  Speech AI &amp; Privacy-First NLP</h4>
       <p class="text-slate-300 text-sm leading-relaxed mb-3">
         Acoustic speech transcription with OpenAI Whisper, automated PII sanitization with Microsoft Presidio, and low-latency conversational reasoning.
       </p>
@@ -68,7 +68,7 @@ My engineering philosophy is simple: machine learning is only as valuable as the
   </tr>
   <tr class="bg-slate-900/40">
     <td width="50%" valign="top" class="p-5 border border-slate-800">
-      <h4 style="font-family: 'Times New Roman', Times, serif;" class="text-lg font-bold text-cyan-400 mb-2">03 / Edge AI &amp; IoT Systems</h4>
+      <h4 style="font-family: 'Times New Roman', Times, serif;" class="text-lg font-bold text-cyan-400 mb-2">03  Edge AI &amp; IoT Systems</h4>
       <p class="text-slate-300 text-sm leading-relaxed mb-3">
         On-device hardware inference on the NVIDIA Jetson Nano, continuous multi-sensor telemetry acquisition, and dynamic threshold automated solenoid actuation.
       </p>
@@ -79,7 +79,7 @@ My engineering philosophy is simple: machine learning is only as valuable as the
       </div>
     </td>
     <td width="50%" valign="top" class="p-5 border border-slate-800">
-      <h4 style="font-family: 'Times New Roman', Times, serif;" class="text-lg font-bold text-cyan-400 mb-2">04 / MLOps &amp; Cloud Infrastructure</h4>
+      <h4 style="font-family: 'Times New Roman', Times, serif;" class="text-lg font-bold text-cyan-400 mb-2">04  MLOps &amp; Cloud Infrastructure</h4>
       <p class="text-slate-300 text-sm leading-relaxed mb-3">
         Asynchronous FastAPI microservices, MLflow experiment tracking &amp; artifact registry, Docker containerization, and deployment on AWS EC2 &amp; S3.
       </p>
@@ -101,7 +101,7 @@ My engineering philosophy is simple: machine learning is only as valuable as the
 
 <br />
 
-<h2 style="font-family: 'Times New Roman', Times, 'Georgia', serif;" class="text-2xl font-bold text-slate-100 flex items-center gap-2 border-b border-slate-800 pb-2">🎓 // Education &amp; Background</h2>
+<h2 style="font-family: 'Times New Roman', Times, 'Georgia', serif;" class="text-2xl font-bold text-slate-100 flex items-center gap-2 border-b border-slate-800 pb-2">🎓 Education &amp; Background</h2>
 
 ```
 ┌── [ 2022 — 2026 ] ─────────────────────────────────────────────────────────────────┐
@@ -191,7 +191,7 @@ My engineering philosophy is simple: machine learning is only as valuable as the
 
 <br />
 
-<h2 style="font-family: 'Times New Roman', Times, 'Georgia', serif;" class="text-2xl font-bold text-slate-100 flex items-center gap-2 border-b border-slate-800 pb-2">🧪 // Featured Projects</h2>
+<h2 style="font-family: 'Times New Roman', Times, 'Georgia', serif;" class="text-2xl font-bold text-slate-100 flex items-center gap-2 border-b border-slate-800 pb-2">🧪 Featured Projects</h2>
 
 <p class="text-slate-400 text-sm mb-6">Case studies demonstrating end-to-end architecture, mathematical modeling, and production deployments:</p>
 
