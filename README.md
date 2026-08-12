@@ -1,7 +1,7 @@
 <div align="center" class="hero-container flex flex-col items-center justify-center w-full">
 
-  <!-- ======================== 3D ANIMATED HERO BANNER ======================== -->
-  <img src="assets/hero.svg" alt="Vaibhav Madival // Data Science Engineer | AI/ML | Full Stack" width="100%" class="rounded-2xl shadow-2xl shadow-cyan-950/40 border border-slate-800/80" />
+  <!-- ======================== ANIMATED HERO BANNER ======================== -->
+  <img src="assets/banner.svg" alt="Vaibhav Madival // Data Science & ML Engineer" width="100%" class="rounded-2xl shadow-2xl border border-slate-800/80" />
 
   <br /><br />
 
