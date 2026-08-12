@@ -110,6 +110,12 @@ My engineering philosophy is simple: machine learning is only as valuable as the
 
 <h2 style="font-family: 'Times New Roman', Times, 'Georgia', serif;">🛠️ // Tech Stack</h2>
 
+<div align="center">
+  <img src="assets/technology.svg" alt="Technology & Engineering Lab" width="420" />
+</div>
+
+<br />
+
 Categorized by technical domain:
 
 <br />
