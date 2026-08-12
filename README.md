@@ -13,23 +13,14 @@
   </p>
 
   <!-- QUICK NAVIGATION / GITHUB OCTICONS -->
-  <p align="center">
-    <a href="https://github.com/vaibhavvm2005">
-      <img src="https://img.shields.io/badge/GitHub-@vaibhavvm2005-000000?style=flat-square&logo=github&logoColor=00F0FF&labelColor=000000&color=161B26" alt="GitHub Profile" />
-    </a>
-    &nbsp;
-    <a href="#-tech-stack">
-      <img src="https://img.shields.io/badge/Stack-Data%20Science%20%26%20AI-000000?style=flat-square&logoColor=38BDF8&labelColor=000000&color=161B26" alt="Focus Stack" />
-    </a>
-    &nbsp;
-    <a href="#-featured-projects">
-      <img src="https://img.shields.io/badge/Projects-Case%20Studies-000000?style=flat-square&logoColor=E2E8F0&labelColor=000000&color=161B26" alt="Featured Projects" />
-    </a>
-    &nbsp;
-    <a href="https://www.linkedin.com/in/vaibhav-madival">
-      <img src="https://img.shields.io/badge/LinkedIn-Vaibhav%20Madival-000000?style=flat-square&logo=linkedin&logoColor=0077B5&labelColor=000000&color=161B26" alt="LinkedIn" />
-    </a>
-  </p>
+  <div align="center">
+    <a href="https://github.com/vaibhavvm2005"><img src="https://img.shields.io/badge/GitHub-@vaibhavvm2005-000000?style=flat-square&logo=github&logoColor=00F0FF&labelColor=000000&color=161B26" alt="GitHub Profile" /></a>
+    <a href="#-tech-stack"><img src="https://img.shields.io/badge/Stack-Data%20Science%20%26%20AI-000000?style=flat-square&logoColor=38BDF8&labelColor=000000&color=161B26" alt="Focus Stack" /></a>
+    <a href="#-featured-projects"><img src="https://img.shields.io/badge/Projects-Case%20Studies-000000?style=flat-square&logoColor=E2E8F0&labelColor=000000&color=161B26" alt="Featured Projects" /></a>
+    <a href="https://www.linkedin.com/in/vaibhav-madival"><img src="https://img.shields.io/badge/LinkedIn-Vaibhav%20Madival-000000?style=flat-square&logo=linkedin&logoColor=0077B5&labelColor=000000&color=161B26" alt="LinkedIn" /></a>
+  </div>
+
+  <br />
 
   <img src="assets/cyber-divider.svg" width="100%" />
 
