@@ -1,97 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vaibhav Madival // Profile README Preview</title>
+  <title>Vaibhav Madival // Developer Portfolio & Profile</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            cyber: {
+              black: '#000000',
+              dark: '#030712',
+              card: '#050B14',
+              border: '#162338',
+              cyan: '#00F0FF',
+              cyanHover: '#38BDF8',
+              blue: '#0284C7',
+            }
+          },
+          fontFamily: {
+            serif: ['"Times New Roman"', 'Times', 'Georgia', 'serif'],
+            mono: ['"SFMono-Regular"', 'Consolas', '"Liberation Mono"', 'Menlo', 'monospace'],
+            sans: ['-apple-system', 'BlinkMacSystemFont', '"SF Pro Display"', 'Inter', '"Segoe UI"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-dark.min.css">
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
   <style>
-    :root {
-      --bg-black: #000000;
-      --card-black: #030408;
-      --border-dark: #161B26;
-      --accent-cyan: #00F0FF;
-    }
     body {
-      background-color: var(--bg-black);
-      color: #E2E8F0;
-      font-family: 'Times New Roman', Times, 'Georgia', serif;
-      margin: 0;
-      padding: 40px 20px;
-      display: flex;
-      justify-content: center;
-    }
-    .preview-container {
-      max-width: 960px;
-      width: 100%;
-      background: var(--card-black);
-      border: 1px solid var(--border-dark);
-      border-radius: 14px;
-      padding: 44px;
-      box-shadow: 0 25px 60px rgba(0, 240, 255, 0.03);
-    }
-    .top-bar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding-bottom: 20px;
-      margin-bottom: 32px;
-      border-bottom: 1px solid var(--border-dark);
-      font-family: 'SFMono-Regular', Consolas, Menlo, monospace;
-      font-size: 12px;
-      color: var(--accent-cyan);
+      background-color: #000000;
     }
     .markdown-body {
       background-color: transparent !important;
       color: #E2E8F0 !important;
-      font-family: 'Times New Roman', Times, 'Georgia', serif !important;
-    }
-    .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4 {
-      font-family: 'Times New Roman', Times, 'Georgia', serif !important;
-      font-weight: 700;
     }
     .markdown-body table {
       width: 100%;
-      background-color: #020306 !important;
-      border: 1px solid var(--border-dark) !important;
+      background-color: #030712 !important;
+      border: 1px solid #162338 !important;
+      border-radius: 8px;
     }
     .markdown-body th, .markdown-body td {
-      border: 1px solid var(--border-dark) !important;
-      padding: 18px !important;
+      border: 1px solid #162338 !important;
+      padding: 16px !important;
     }
     .markdown-body tr {
-      background-color: #04060C !important;
-    }
-    .markdown-body pre {
-      background-color: #020306 !important;
-      border: 1px solid var(--border-dark) !important;
-      font-family: 'SFMono-Regular', Consolas, monospace !important;
+      background-color: #030712 !important;
     }
     .markdown-body code {
       background-color: rgba(0, 240, 255, 0.08) !important;
-      color: #38BDF8 !important;
+      color: #00F0FF !important;
       border: 1px solid rgba(0, 240, 255, 0.2);
-      font-family: 'SFMono-Regular', Consolas, monospace !important;
+    }
+    .markdown-body pre {
+      background-color: #030712 !important;
+      border: 1px solid #162338 !important;
     }
     .markdown-body a {
-      color: var(--accent-cyan) !important;
-      text-decoration: none;
-    }
-    .markdown-body a:hover {
-      text-decoration: underline;
+      color: #00F0FF !important;
     }
   </style>
 </head>
-<body>
-  <div class="preview-container">
-    <div class="top-bar">
-      <span>● GITHUB PROFILE README LIVE PREVIEW // TIMES NEW ROMAN &amp; CYBER HYBRID</span>
-      <span>USER: vaibhavvm2005</span>
+<body class="bg-black text-slate-200 min-h-screen py-10 px-4 flex justify-center font-sans antialiased">
+
+  <div class="max-w-5xl w-full bg-cyber-card border border-cyber-border rounded-2xl p-6 md:p-10 shadow-2xl shadow-cyan-950/20 backdrop-blur-xl">
+    
+    <!-- Top System Telemetry Bar (Tailwind Styled) -->
+    <div class="flex flex-wrap justify-between items-center pb-5 mb-8 border-b border-cyber-border font-mono text-xs text-cyber-cyan">
+      <div class="flex items-center space-x-2">
+        <span class="inline-block w-2.5 h-2.5 rounded-full bg-cyber-cyan animate-ping"></span>
+        <span class="font-bold tracking-wider">● LIVE PROFILE // TAILWIND CSS &amp; 3D SHADOW ENGINE</span>
+      </div>
+      <div class="flex items-center space-x-4 text-slate-400 mt-2 sm:mt-0">
+        <span>VTU CSE (DATA SCIENCE)</span>
+        <span class="text-cyber-cyan">@vaibhavvm2005</span>
+      </div>
     </div>
+
+    <!-- Main Markdown / HTML Content Container -->
     <div id="content" class="markdown-body">
-      Loading profile README...
+      <div class="flex items-center justify-center py-20 text-cyber-cyan font-mono animate-pulse">
+        Initializing profile render...
+      </div>
     </div>
+
   </div>
 
   <script>
