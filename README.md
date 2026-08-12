@@ -12,22 +12,22 @@
     </a>
   </p>
 
-  <!-- QUICK NAVIGATION / METADATA -->
+  <!-- QUICK NAVIGATION / GITHUB OCTICONS -->
   <p align="center">
     <a href="https://github.com/vaibhavvm2005">
-      <img src="https://img.shields.io/badge/Status-Online%20%26%20Active-000000?style=flat-square&logoColor=00F0FF&labelColor=000000&color=00F0FF" alt="Status" />
+      <img src="https://img.shields.io/badge/GitHub-@vaibhavvm2005-000000?style=flat-square&logo=github&logoColor=00F0FF&labelColor=000000&color=161B26" alt="GitHub Profile" />
     </a>
     &nbsp;
-    <a href="#-03-tech-stack">
-      <img src="https://img.shields.io/badge/Focus-Data%20Science%20%26%20AI-000000?style=flat-square&logoColor=38BDF8&labelColor=000000&color=161B26" alt="Focus" />
+    <a href="#-tech-stack">
+      <img src="https://img.shields.io/badge/Stack-Data%20Science%20%26%20AI-000000?style=flat-square&logoColor=38BDF8&labelColor=000000&color=161B26" alt="Focus Stack" />
     </a>
     &nbsp;
-    <a href="#-04-featured-projects">
-      <img src="https://img.shields.io/badge/Projects-Production%20Ready-000000?style=flat-square&logoColor=E2E8F0&labelColor=000000&color=161B26" alt="Projects" />
+    <a href="#-featured-projects">
+      <img src="https://img.shields.io/badge/Projects-Case%20Studies-000000?style=flat-square&logoColor=E2E8F0&labelColor=000000&color=161B26" alt="Featured Projects" />
     </a>
     &nbsp;
     <a href="https://www.linkedin.com/in/vaibhav-madival">
-      <img src="https://img.shields.io/badge/LinkedIn-Connect%20%E2%86%97-000000?style=flat-square&logoColor=00F0FF&labelColor=000000&color=161B26" alt="LinkedIn" />
+      <img src="https://img.shields.io/badge/LinkedIn-Vaibhav%20Madival-000000?style=flat-square&logo=linkedin&logoColor=0077B5&labelColor=000000&color=161B26" alt="LinkedIn" />
     </a>
   </p>
 
@@ -37,29 +37,29 @@
 
 <br />
 
-## 👤 // 01. ABOUT ME
+<h2 style="font-family: 'Times New Roman', Times, 'Georgia', serif;">👤 // About Me</h2>
 
-I am a **Computer Science & Engineering (Data Science)** student passionate about building intelligent, production-ready systems at the intersection of **Machine Learning**, **Data Science**, and **Scalable Backend Infrastructure**.
+I am a final-year **Computer Science & Engineering (Data Science)** student at Alva's Institute of Engineering and Technology (affiliated with VTU, Karnataka). I focus on building practical, production-ready machine learning systems, data pipelines, and scalable backend services.
 
-Rather than viewing models in isolation, I develop complete operational lifecycles: from exploratory data analysis and feature engineering to experiment tracking with MLflow, containerized REST API microservices with FastAPI & Docker, and cloud deployments on AWS.
+My engineering philosophy is simple: machine learning is only as valuable as the software systems running it. I spend my time going beyond Jupyter notebooks — optimizing feature pipelines, tracking experiments with MLflow, wrapping models into sub-25ms asynchronous FastAPI microservices, containerizing with Docker, and deploying to AWS.
 
 <br />
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4><code>01 /</code> PREDICTIVE SYSTEMS &amp; ML</h4>
+      <h4 style="font-family: 'Times New Roman', Times, serif;">01 / Predictive Modeling &amp; Tabular ML</h4>
       <p>
-        Supervised classification, regression, customer churn forecasting, hyperparameter tuning, and SHAP explainability.
+        End-to-end supervised pipelines: cross-validation, hyperparameter tuning with Optuna, collinearity reduction, and tree ensembles (XGBoost, LightGBM, Random Forest) with SHAP interpretability.
       </p>
       <p>
-        <code>Scikit-learn</code> • <code>XGBoost</code> • <code>Pandas</code> • <code>NumPy</code>
+        <code>Python</code> • <code>Scikit-learn</code> • <code>XGBoost</code> • <code>Pandas</code>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4><code>02 /</code> SPEECH AI &amp; NLP</h4>
+      <h4 style="font-family: 'Times New Roman', Times, serif;">02 / Speech AI &amp; Privacy-First NLP</h4>
       <p>
-        Acoustic transcription pipelines, contextual sentiment analysis, and zero-leakage PII redaction for enterprise NLP workflows.
+        Acoustic speech transcription with OpenAI Whisper, automated PII sanitization with Microsoft Presidio, and low-latency conversational reasoning.
       </p>
       <p>
         <code>OpenAI Whisper</code> • <code>Microsoft Presidio</code> • <code>NLP</code>
@@ -68,21 +68,21 @@ Rather than viewing models in isolation, I develop complete operational lifecycl
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4><code>03 /</code> EDGE COMPUTING &amp; IOT</h4>
+      <h4 style="font-family: 'Times New Roman', Times, serif;">03 / Edge AI &amp; IoT Systems</h4>
       <p>
-        Hardware-accelerated edge inference on NVIDIA Jetson Nano, live sensor telemetry ingestion, and automated hardware actuation.
+        On-device hardware inference on the NVIDIA Jetson Nano, continuous multi-sensor telemetry acquisition, and dynamic threshold automated solenoid actuation.
       </p>
       <p>
-        <code>NVIDIA Jetson</code> • <code>Telemetry Ingestion</code> • <code>Edge ML</code>
+        <code>NVIDIA Jetson Nano</code> • <code>IoT Telemetry</code> • <code>Edge ML</code>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4><code>04 /</code> MLOPS &amp; CLOUD DEPLOYMENT</h4>
+      <h4 style="font-family: 'Times New Roman', Times, serif;">04 / MLOps &amp; Cloud Infrastructure</h4>
       <p>
-        Asynchronous FastAPI microservices, MLflow experiment tracking &amp; model registry, Docker containers, and AWS cloud deployment.
+        Asynchronous FastAPI microservices, MLflow experiment tracking &amp; artifact registry, Docker containerization, and deployment on AWS EC2 &amp; S3.
       </p>
       <p>
-        <code>FastAPI</code> • <code>MLflow</code> • <code>Docker</code> • <code>AWS (S3/EC2)</code>
+        <code>FastAPI</code> • <code>MLflow</code> • <code>Docker</code> • <code>AWS (EC2/S3)</code>
       </p>
     </td>
   </tr>
@@ -96,18 +96,18 @@ Rather than viewing models in isolation, I develop complete operational lifecycl
 
 <br />
 
-## 🎓 // 02. EDUCATION & BACKGROUND
+<h2 style="font-family: 'Times New Roman', Times, 'Georgia', serif;">🎓 // Education &amp; Background</h2>
 
 ```
-┌── [ 2022 — Present ] ─────────────────────────────────────────────────────────────┐
+┌── [ 2022 — 2026 ] ─────────────────────────────────────────────────────────────────┐
 │  B.E. in Computer Science & Engineering (Data Science)                             │
 │  Alva's Institute of Engineering and Technology (AIET)                             │
 │  Affiliated with Visvesvaraya Technological University (VTU), Karnataka            │
 └────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
-* **Core Competencies**: Machine Learning, Statistical Modeling, Data Structures & Algorithms, Database Management Systems, Operating Systems, Cloud Computing, Object-Oriented Programming (C++/Python).
-* **Engineering Objective**: Architecting resilient, data-driven systems and deploying high-performance machine learning models to production.
+* **Core Coursework**: Machine Learning, Artificial Intelligence, Database Management Systems, Data Structures & Algorithms, Operating Systems, Cloud Computing, Object-Oriented Programming (C++/Python), Probability & Statistics.
+* **Engineering Focus**: Designing reliable software architectures around machine learning models and data pipelines that solve real-world problems.
 
 <br />
 
@@ -117,9 +117,9 @@ Rather than viewing models in isolation, I develop complete operational lifecycl
 
 <br />
 
-## 🛠️ // 03. TECH STACK
+<h2 style="font-family: 'Times New Roman', Times, 'Georgia', serif;">🛠️ // Tech Stack</h2>
 
-Organized by engineering discipline with verified technology stacks:
+Categorized by technical domain:
 
 <br />
 
@@ -180,14 +180,14 @@ Organized by engineering discipline with verified technology stacks:
 
 <br />
 
-## 🧪 // 04. FEATURED PROJECTS
+<h2 style="font-family: 'Times New Roman', Times, 'Georgia', serif;">🧪 // Featured Projects</h2>
 
-Featured engineering case studies demonstrating end-to-end architecture, mathematical modeling, and production deployment:
+Case studies demonstrating end-to-end architecture, mathematical modeling, and production deployments:
 
 <br />
 
 ### `PROJECT 01` — Customer Churn Prediction System
-> **End-to-end production predictive pipeline, experiment tracking with MLflow, asynchronous FastAPI service, and containerized deployment on AWS.**
+> **End-to-end tabular predictive pipeline, experiment tracking with MLflow, asynchronous FastAPI service, and containerized deployment on AWS.**
 
 <div align="center">
   <a href="https://github.com/vaibhavvm2005/customer-churn-prediction">
@@ -197,10 +197,10 @@ Featured engineering case studies demonstrating end-to-end architecture, mathema
 
 <br />
 
-* **Data Preprocessing & EDA**: Imputed, normalized, and transformed high-dimensional customer activity telemetry; applied categorical encoding and collinearity reduction.
-* **Model Training & Evaluation**: Evaluated ensemble algorithms (XGBoost, Random Forest, Logistic Regression); optimized hyperparameters via stratified cross-validation.
-* **Experiment Management**: Logged runs, evaluation metrics (ROC-AUC 0.942), and model artifacts with **MLflow**.
-* **FastAPI REST Service**: Built an asynchronous **FastAPI** service for sub-25ms real-time churn risk inference.
+* **Data Preprocessing & EDA**: Imputed, normalized, and transformed high-dimensional customer activity telemetry; handled categorical encoding and collinearity reduction.
+* **Model Training & Evaluation**: Evaluated ensemble algorithms (XGBoost, Random Forest, Logistic Regression); optimized hyperparameters via stratified cross-validation, achieving 0.942 ROC-AUC.
+* **Experiment Tracking**: Logged runs, evaluation metrics, and model artifacts with **MLflow**.
+* **FastAPI Microservice**: Built an asynchronous **FastAPI** service for sub-25ms real-time churn risk inference.
 * **Docker & AWS Deployment**: Containerized the entire inference runtime with **Docker** and deployed on **AWS (EC2 & S3)**.
 
 <p>
@@ -208,7 +208,9 @@ Featured engineering case studies demonstrating end-to-end architecture, mathema
 </p>
 
 <p>
-  🔗 <a href="https://github.com/vaibhavvm2005/customer-churn-prediction"><b>[ ➔ View Repository &amp; Architecture ]</b></a>
+  <a href="https://github.com/vaibhavvm2005/customer-churn-prediction">
+    <img src="https://img.shields.io/badge/GitHub-View_Repository_↗-000000?style=flat-square&logo=github&logoColor=00F0FF&labelColor=000000&color=161B26" alt="View Repository" />
+  </a>
 </p>
 
 <br />
@@ -230,7 +232,9 @@ Featured engineering case studies demonstrating end-to-end architecture, mathema
 </p>
 
 <p>
-  🔗 <a href="https://github.com/vaibhavvm2005/mental-health-ai-assistant"><b>[ ➔ View Application Repository ]</b></a>
+  <a href="https://github.com/vaibhavvm2005/mental-health-ai-assistant">
+    <img src="https://img.shields.io/badge/GitHub-View_Repository_↗-000000?style=flat-square&logo=github&logoColor=00F0FF&labelColor=000000&color=161B26" alt="View Repository" />
+  </a>
 </p>
 
 <br />
@@ -251,7 +255,9 @@ Featured engineering case studies demonstrating end-to-end architecture, mathema
 </p>
 
 <p>
-  🔗 <a href="https://github.com/vaibhavvm2005/agrigita-smart-water-management"><b>[ ➔ View Edge System Repository ]</b></a>
+  <a href="https://github.com/vaibhavvm2005/agrigita-smart-water-management">
+    <img src="https://img.shields.io/badge/GitHub-View_Repository_↗-000000?style=flat-square&logo=github&logoColor=00F0FF&labelColor=000000&color=161B26" alt="View Repository" />
+  </a>
 </p>
 
 <br />
@@ -272,7 +278,9 @@ Featured engineering case studies demonstrating end-to-end architecture, mathema
 </p>
 
 <p>
-  🔗 <a href="https://github.com/vaibhavvm2005/task-manager-pro"><b>[ ➔ View Full-Stack Repository ]</b></a>
+  <a href="https://github.com/vaibhavvm2005/task-manager-pro">
+    <img src="https://img.shields.io/badge/GitHub-View_Repository_↗-000000?style=flat-square&logo=github&logoColor=00F0FF&labelColor=000000&color=161B26" alt="View Repository" />
+  </a>
 </p>
 
 <br />
@@ -283,7 +291,7 @@ Featured engineering case studies demonstrating end-to-end architecture, mathema
 
 <br />
 
-## 🔭 // 05. CURRENT FOCUS
+<h2 style="font-family: 'Times New Roman', Times, 'Georgia', serif;">🔭 // Current Focus</h2>
 
 ```
 CURRENTLY EXPLORING
@@ -303,7 +311,7 @@ CURRENTLY EXPLORING
 
 <br />
 
-## 📊 // 06. GITHUB METRICS
+<h2 style="font-family: 'Times New Roman', Times, 'Georgia', serif;">📊 // GitHub Activity</h2>
 
 <div align="center">
 
@@ -343,24 +351,24 @@ CURRENTLY EXPLORING
 
 <br />
 
-## 🌐 // 07. CONNECT
+<h2 style="font-family: 'Times New Roman', Times, 'Georgia', serif;">🌐 // Let's Connect</h2>
 
-> *Have an idea, opportunity, or interesting problem? Let's connect.*
+> *Have an idea, opportunity, or interesting problem? Let's talk.*
 
 <br />
 
 <div align="center">
 
   <a href="https://github.com/vaibhavvm2005" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00F0FF&labelColor=000000&color=161B26" alt="GitHub Profile" />
+    <img src="https://img.shields.io/badge/GitHub-@vaibhavvm2005-000000?style=for-the-badge&logo=github&logoColor=00F0FF&labelColor=000000&color=161B26" alt="GitHub Profile" />
   </a>
   &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/vaibhav-madival" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=0077B5&labelColor=000000&color=161B26" alt="LinkedIn Profile" />
+    <img src="https://img.shields.io/badge/LinkedIn-Vaibhav_Madival-000000?style=for-the-badge&logo=linkedin&logoColor=0077B5&labelColor=000000&color=161B26" alt="LinkedIn Profile" />
   </a>
   &nbsp;&nbsp;
   <a href="mailto:vaibhavmadival331@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=000000&color=161B26" alt="Email Direct" />
+    <img src="https://img.shields.io/badge/Email-vaibhavmadival331@gmail.com-000000?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=000000&color=161B26" alt="Email Direct" />
   </a>
 
 </div>
