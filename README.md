@@ -15,19 +15,19 @@
   <!-- QUICK NAVIGATION / METADATA -->
   <p align="center">
     <a href="https://github.com/vaibhavvm2005">
-      <img src="https://img.shields.io/badge/Status-Online%20%26%20Active-04060A?style=flat-square&logoColor=00F0FF&labelColor=04060A&color=00F0FF" alt="Status" />
+      <img src="https://img.shields.io/badge/Status-Online%20%26%20Active-000000?style=flat-square&logoColor=00F0FF&labelColor=000000&color=00F0FF" alt="Status" />
     </a>
     &nbsp;
     <a href="#-03-tech-stack">
-      <img src="https://img.shields.io/badge/Focus-Data%20Science%20%26%20AI-04060A?style=flat-square&logoColor=38BDF8&labelColor=04060A&color=1A2234" alt="Focus" />
+      <img src="https://img.shields.io/badge/Focus-Data%20Science%20%26%20AI-000000?style=flat-square&logoColor=38BDF8&labelColor=000000&color=161B26" alt="Focus" />
     </a>
     &nbsp;
     <a href="#-04-featured-projects">
-      <img src="https://img.shields.io/badge/Projects-Production%20Ready-04060A?style=flat-square&logoColor=E2E8F0&labelColor=04060A&color=1A2234" alt="Projects" />
+      <img src="https://img.shields.io/badge/Projects-Production%20Ready-000000?style=flat-square&logoColor=E2E8F0&labelColor=000000&color=161B26" alt="Projects" />
     </a>
     &nbsp;
     <a href="https://www.linkedin.com/in/vaibhav-madival">
-      <img src="https://img.shields.io/badge/LinkedIn-Connect%20%E2%86%97-04060A?style=flat-square&logoColor=00F0FF&labelColor=04060A&color=1A2234" alt="LinkedIn" />
+      <img src="https://img.shields.io/badge/LinkedIn-Connect%20%E2%86%97-000000?style=flat-square&logoColor=00F0FF&labelColor=000000&color=161B26" alt="LinkedIn" />
     </a>
   </p>
 
@@ -125,51 +125,51 @@ Organized by engineering discipline with verified technology stacks:
 
 ### ❯ PROGRAMMING
 <p>
-  <img src="https://img.shields.io/badge/Python-04060A?style=for-the-badge&logo=python&logoColor=00F0FF&labelColor=04060A&color=1A2234" alt="Python" />
-  <img src="https://img.shields.io/badge/C++-04060A?style=for-the-badge&logo=cplusplus&logoColor=00F0FF&labelColor=04060A&color=1A2234" alt="C++" />
-  <img src="https://img.shields.io/badge/SQL-04060A?style=for-the-badge&logo=mysql&logoColor=00F0FF&labelColor=04060A&color=1A2234" alt="SQL" />
+  <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=00F0FF&labelColor=000000&color=161B26" alt="Python" />
+  <img src="https://img.shields.io/badge/C++-000000?style=for-the-badge&logo=cplusplus&logoColor=00F0FF&labelColor=000000&color=161B26" alt="C++" />
+  <img src="https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=mysql&logoColor=00F0FF&labelColor=000000&color=161B26" alt="SQL" />
 </p>
 
 ### ❯ DATA & ANALYTICS
 <p>
-  <img src="https://img.shields.io/badge/Pandas-04060A?style=for-the-badge&logo=pandas&logoColor=38BDF8&labelColor=04060A&color=1A2234" alt="Pandas" />
-  <img src="https://img.shields.io/badge/NumPy-04060A?style=for-the-badge&logo=numpy&logoColor=38BDF8&labelColor=04060A&color=1A2234" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Matplotlib-04060A?style=for-the-badge&logo=python&logoColor=38BDF8&labelColor=04060A&color=1A2234" alt="Matplotlib" />
-  <img src="https://img.shields.io/badge/Plotly-04060A?style=for-the-badge&logo=plotly&logoColor=38BDF8&labelColor=04060A&color=1A2234" alt="Plotly" />
-  <img src="https://img.shields.io/badge/Power_BI-04060A?style=for-the-badge&logo=powerbi&logoColor=38BDF8&labelColor=04060A&color=1A2234" alt="Power BI" />
+  <img src="https://img.shields.io/badge/Pandas-000000?style=for-the-badge&logo=pandas&logoColor=38BDF8&labelColor=000000&color=161B26" alt="Pandas" />
+  <img src="https://img.shields.io/badge/NumPy-000000?style=for-the-badge&logo=numpy&logoColor=38BDF8&labelColor=000000&color=161B26" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Matplotlib-000000?style=for-the-badge&logo=python&logoColor=38BDF8&labelColor=000000&color=161B26" alt="Matplotlib" />
+  <img src="https://img.shields.io/badge/Plotly-000000?style=for-the-badge&logo=plotly&logoColor=38BDF8&labelColor=000000&color=161B26" alt="Plotly" />
+  <img src="https://img.shields.io/badge/Power_BI-000000?style=for-the-badge&logo=powerbi&logoColor=38BDF8&labelColor=000000&color=161B26" alt="Power BI" />
 </p>
 
 ### ❯ MACHINE LEARNING
 <p>
-  <img src="https://img.shields.io/badge/Scikit--Learn-04060A?style=for-the-badge&logo=scikitlearn&logoColor=00F0FF&labelColor=04060A&color=1A2234" alt="Scikit-Learn" />
-  <img src="https://img.shields.io/badge/XGBoost-04060A?style=for-the-badge&logo=xgboost&logoColor=00F0FF&labelColor=04060A&color=1A2234" alt="XGBoost" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-000000?style=for-the-badge&logo=scikitlearn&logoColor=00F0FF&labelColor=000000&color=161B26" alt="Scikit-Learn" />
+  <img src="https://img.shields.io/badge/XGBoost-000000?style=for-the-badge&logo=xgboost&logoColor=00F0FF&labelColor=000000&color=161B26" alt="XGBoost" />
 </p>
 
 ### ❯ BACKEND & API
 <p>
-  <img src="https://img.shields.io/badge/FastAPI-04060A?style=for-the-badge&logo=fastapi&logoColor=38BDF8&labelColor=04060A&color=1A2234" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/MLflow-04060A?style=for-the-badge&logo=mlflow&logoColor=38BDF8&labelColor=04060A&color=1A2234" alt="MLflow" />
-  <img src="https://img.shields.io/badge/Streamlit-04060A?style=for-the-badge&logo=streamlit&logoColor=38BDF8&labelColor=04060A&color=1A2234" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=38BDF8&labelColor=000000&color=161B26" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/MLflow-000000?style=for-the-badge&logo=mlflow&logoColor=38BDF8&labelColor=000000&color=161B26" alt="MLflow" />
+  <img src="https://img.shields.io/badge/Streamlit-000000?style=for-the-badge&logo=streamlit&logoColor=38BDF8&labelColor=000000&color=161B26" alt="Streamlit" />
 </p>
 
 ### ❯ CLOUD & DEVOPS
 <p>
-  <img src="https://img.shields.io/badge/AWS-04060A?style=for-the-badge&logo=amazonwebservices&logoColor=00F0FF&labelColor=04060A&color=1A2234" alt="AWS" />
-  <img src="https://img.shields.io/badge/Docker-04060A?style=for-the-badge&logo=docker&logoColor=00F0FF&labelColor=04060A&color=1A2234" alt="Docker" />
-  <img src="https://img.shields.io/badge/Git-04060A?style=for-the-badge&logo=git&logoColor=00F0FF&labelColor=04060A&color=1A2234" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-04060A?style=for-the-badge&logo=github&logoColor=00F0FF&labelColor=04060A&color=1A2234" alt="GitHub" />
+  <img src="https://img.shields.io/badge/AWS-000000?style=for-the-badge&logo=amazonwebservices&logoColor=00F0FF&labelColor=000000&color=161B26" alt="AWS" />
+  <img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=00F0FF&labelColor=000000&color=161B26" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=00F0FF&labelColor=000000&color=161B26" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00F0FF&labelColor=000000&color=161B26" alt="GitHub" />
 </p>
 
 ### ❯ DATABASES
 <p>
-  <img src="https://img.shields.io/badge/MySQL-04060A?style=for-the-badge&logo=mysql&logoColor=38BDF8&labelColor=04060A&color=1A2234" alt="MySQL" />
-  <img src="https://img.shields.io/badge/MongoDB-04060A?style=for-the-badge&logo=mongodb&logoColor=38BDF8&labelColor=04060A&color=1A2234" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/MySQL-000000?style=for-the-badge&logo=mysql&logoColor=38BDF8&labelColor=000000&color=161B26" alt="MySQL" />
+  <img src="https://img.shields.io/badge/MongoDB-000000?style=for-the-badge&logo=mongodb&logoColor=38BDF8&labelColor=000000&color=161B26" alt="MongoDB" />
 </p>
 
 ### ❯ TOOLS
 <p>
-  <img src="https://img.shields.io/badge/VS_Code-04060A?style=for-the-badge&logo=visualstudiocode&logoColor=E2E8F0&labelColor=04060A&color=1A2234" alt="VS Code" />
-  <img src="https://img.shields.io/badge/Jupyter-04060A?style=for-the-badge&logo=jupyter&logoColor=E2E8F0&labelColor=04060A&color=1A2234" alt="Jupyter" />
+  <img src="https://img.shields.io/badge/VS_Code-000000?style=for-the-badge&logo=visualstudiocode&logoColor=E2E8F0&labelColor=000000&color=161B26" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Jupyter-000000?style=for-the-badge&logo=jupyter&logoColor=E2E8F0&labelColor=000000&color=161B26" alt="Jupyter" />
 </p>
 
 <br />
@@ -307,19 +307,19 @@ CURRENTLY EXPLORING
 
 <div align="center">
 
-  <!-- GITHUB METRICS DASHBOARD -->
+  <!-- GITHUB METRICS DASHBOARD (TRUE BLACK THEME) -->
   <table border="0">
     <tr>
       <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=vaibhavvm2005&show_icons=true&theme=tokyonight&hide_border=false&title_color=00F0FF&icon_color=00F0FF&text_color=94A3B8&bg_color=04060A&border_color=1A2234" alt="GitHub Profile Metrics" width="100%" />
+        <img src="https://github-readme-stats.vercel.app/api?username=vaibhavvm2005&show_icons=true&theme=tokyonight&hide_border=false&title_color=00F0FF&icon_color=00F0FF&text_color=94A3B8&bg_color=000000&border_color=161B26" alt="GitHub Profile Metrics" width="100%" />
       </td>
       <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavvm2005&layout=compact&theme=tokyonight&hide_border=false&title_color=00F0FF&text_color=94A3B8&bg_color=04060A&border_color=1A2234" alt="Top Languages Metrics" width="100%" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavvm2005&layout=compact&theme=tokyonight&hide_border=false&title_color=00F0FF&text_color=94A3B8&bg_color=000000&border_color=161B26" alt="Top Languages Metrics" width="100%" />
       </td>
     </tr>
     <tr>
       <td align="center" colspan="2">
-        <img src="https://streak-stats.demolab.com/?user=vaibhavvm2005&theme=tokyonight&hide_border=false&stroke=00F0FF&ring=00F0FF&fire=00F0FF&currStreakNum=00F0FF&sideNums=00F0FF&sideLabels=94A3B8&currStreakLabel=00F0FF&background=04060A&border_radius=8" alt="GitHub Streak Metrics" width="100%" />
+        <img src="https://streak-stats.demolab.com/?user=vaibhavvm2005&theme=tokyonight&hide_border=false&stroke=00F0FF&ring=00F0FF&fire=00F0FF&currStreakNum=00F0FF&sideNums=00F0FF&sideLabels=94A3B8&currStreakLabel=00F0FF&background=000000&border_radius=8" alt="GitHub Streak Metrics" width="100%" />
       </td>
     </tr>
   </table>
@@ -352,15 +352,15 @@ CURRENTLY EXPLORING
 <div align="center">
 
   <a href="https://github.com/vaibhavvm2005" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-04060A?style=for-the-badge&logo=github&logoColor=00F0FF&labelColor=04060A&color=1A2234" alt="GitHub Profile" />
+    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00F0FF&labelColor=000000&color=161B26" alt="GitHub Profile" />
   </a>
   &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/vaibhav-madival" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-04060A?style=for-the-badge&logo=linkedin&logoColor=0077B5&labelColor=04060A&color=1A2234" alt="LinkedIn Profile" />
+    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=0077B5&labelColor=000000&color=161B26" alt="LinkedIn Profile" />
   </a>
   &nbsp;&nbsp;
   <a href="mailto:vaibhavmadival331@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-04060A?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=04060A&color=1A2234" alt="Email Direct" />
+    <img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=000000&color=161B26" alt="Email Direct" />
   </a>
 
 </div>

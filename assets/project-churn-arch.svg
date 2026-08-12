@@ -1,22 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 145" width="100%" height="100%">
   <defs>
-    <linearGradient id="boxBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080D1A" />
-      <stop offset="100%" stop-color="#0D1424" />
+    <!-- True Black Box Gradients -->
+    <linearGradient id="blackBoxBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070D" />
+      <stop offset="100%" stop-color="#090E1A" />
     </linearGradient>
 
-    <linearGradient id="accentBoxBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0A162B" />
-      <stop offset="100%" stop-color="#0F1F3D" />
+    <linearGradient id="accentBoxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#061224" />
+      <stop offset="100%" stop-color="#0B1A33" />
     </linearGradient>
 
     <style>
-      @keyframes arrowPulse {
-        0%, 100% { opacity: 0.5; }
+      @keyframes arrowPulseAnim {
+        0%, 100% { opacity: 0.45; }
         50% { opacity: 1; }
       }
-      .flow-arrow {
-        animation: arrowPulse 3s ease-in-out infinite;
+      .flow-arrow-head {
+        animation: arrowPulseAnim 3s ease-in-out infinite;
       }
       .mono-txt {
         font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
@@ -27,8 +28,8 @@
     </style>
   </defs>
 
-  <!-- Container Base -->
-  <rect width="920" height="145" rx="10" fill="#04070E" stroke="#1A2436" stroke-width="1.2" />
+  <!-- Container Base (True Black #000000) -->
+  <rect width="920" height="145" rx="10" fill="#000000" stroke="#161B26" stroke-width="1.2" />
 
   <!-- Header Meta -->
   <g transform="translate(26, 24)">
@@ -44,21 +45,21 @@
   <!-- Connecting Chevrons -->
   <g stroke="#00F0FF" stroke-opacity="0.4" stroke-width="1.2" fill="none">
     <line x1="174" y1="80" x2="206" y2="80" />
-    <polygon points="206,77 212,80 206,83" fill="#00F0FF" stroke="none" class="flow-arrow" />
+    <polygon points="206,77 212,80 206,83" fill="#00F0FF" stroke="none" class="flow-arrow-head" />
 
     <line x1="354" y1="80" x2="386" y2="80" />
-    <polygon points="386,77 392,80 386,83" fill="#00F0FF" stroke="none" class="flow-arrow" />
+    <polygon points="386,77 392,80 386,83" fill="#00F0FF" stroke="none" class="flow-arrow-head" />
 
     <line x1="534" y1="80" x2="566" y2="80" />
-    <polygon points="566,77 572,80 566,83" fill="#00F0FF" stroke="none" class="flow-arrow" />
+    <polygon points="566,77 572,80 566,83" fill="#00F0FF" stroke="none" class="flow-arrow-head" />
 
     <line x1="714" y1="80" x2="746" y2="80" />
-    <polygon points="746,77 752,80 746,83" fill="#00F0FF" stroke="none" class="flow-arrow" />
+    <polygon points="746,77 752,80 746,83" fill="#00F0FF" stroke="none" class="flow-arrow-head" />
   </g>
 
   <!-- Stage 01 -->
   <g transform="translate(26, 48)">
-    <rect width="148" height="64" rx="6" fill="url(#boxBg)" stroke="#1A2436" stroke-width="1" />
+    <rect width="148" height="64" rx="6" fill="url(#blackBoxBg)" stroke="#161B26" stroke-width="1" />
     <text x="12" y="18" fill="#64748B" font-size="8.5" font-weight="700" letter-spacing="1" class="mono-txt">STAGE 01</text>
     <text x="12" y="38" fill="#FFFFFF" font-size="12" font-weight="600" class="sans-txt">Data Ingestion</text>
     <text x="12" y="52" fill="#94A3B8" font-size="9.5" class="mono-txt">EDA &amp; Telemetry</text>
@@ -66,7 +67,7 @@
 
   <!-- Stage 02 -->
   <g transform="translate(206, 48)">
-    <rect width="148" height="64" rx="6" fill="url(#accentBoxBg)" stroke="#00F0FF" stroke-opacity="0.4" stroke-width="1" />
+    <rect width="148" height="64" rx="6" fill="url(#accentBoxGrad)" stroke="#00F0FF" stroke-opacity="0.4" stroke-width="1" />
     <text x="12" y="18" fill="#00F0FF" font-size="8.5" font-weight="700" letter-spacing="1" class="mono-txt">STAGE 02</text>
     <text x="12" y="38" fill="#FFFFFF" font-size="12" font-weight="600" class="sans-txt">Feature Engine</text>
     <text x="12" y="52" fill="#38BDF8" font-size="9.5" class="mono-txt">XGBoost · Sklearn</text>
@@ -74,7 +75,7 @@
 
   <!-- Stage 03 -->
   <g transform="translate(386, 48)">
-    <rect width="148" height="64" rx="6" fill="url(#boxBg)" stroke="#1A2436" stroke-width="1" />
+    <rect width="148" height="64" rx="6" fill="url(#blackBoxBg)" stroke="#161B26" stroke-width="1" />
     <text x="12" y="18" fill="#64748B" font-size="8.5" font-weight="700" letter-spacing="1" class="mono-txt">STAGE 03</text>
     <text x="12" y="38" fill="#FFFFFF" font-size="12" font-weight="600" class="sans-txt">MLflow Registry</text>
     <text x="12" y="52" fill="#94A3B8" font-size="9.5" class="mono-txt">Artifact &amp; Metric</text>
@@ -82,7 +83,7 @@
 
   <!-- Stage 04 -->
   <g transform="translate(566, 48)">
-    <rect width="148" height="64" rx="6" fill="url(#accentBoxBg)" stroke="#00F0FF" stroke-opacity="0.4" stroke-width="1" />
+    <rect width="148" height="64" rx="6" fill="url(#accentBoxGrad)" stroke="#00F0FF" stroke-opacity="0.4" stroke-width="1" />
     <text x="12" y="18" fill="#00F0FF" font-size="8.5" font-weight="700" letter-spacing="1" class="mono-txt">STAGE 04</text>
     <text x="12" y="38" fill="#FFFFFF" font-size="12" font-weight="600" class="sans-txt">FastAPI REST</text>
     <text x="12" y="52" fill="#38BDF8" font-size="9.5" class="mono-txt">Async Inference</text>
@@ -90,7 +91,7 @@
 
   <!-- Stage 05 -->
   <g transform="translate(746, 48)">
-    <rect width="148" height="64" rx="6" fill="url(#boxBg)" stroke="#1A2436" stroke-width="1" />
+    <rect width="148" height="64" rx="6" fill="url(#blackBoxBg)" stroke="#161B26" stroke-width="1" />
     <text x="12" y="18" fill="#64748B" font-size="8.5" font-weight="700" letter-spacing="1" class="mono-txt">STAGE 05</text>
     <text x="12" y="38" fill="#FFFFFF" font-size="12" font-weight="600" class="sans-txt">AWS Deploy</text>
     <text x="12" y="52" fill="#94A3B8" font-size="9.5" class="mono-txt">Docker on EC2/S3</text>

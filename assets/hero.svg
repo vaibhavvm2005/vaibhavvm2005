@@ -1,90 +1,112 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" width="100%" height="100%">
   <defs>
-    <!-- Background Dark Gradient -->
-    <linearGradient id="cyberBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#030509" />
-      <stop offset="50%" stop-color="#060913" />
-      <stop offset="100%" stop-color="#04060C" />
+    <!-- True Black Base Canvas -->
+    <linearGradient id="blackCanvas" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#000000" />
+      <stop offset="50%" stop-color="#020306" />
+      <stop offset="100%" stop-color="#000000" />
     </linearGradient>
 
-    <!-- Typography Gradient -->
-    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Typography Gradients -->
+    <linearGradient id="whiteTitleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FFFFFF" />
       <stop offset="60%" stop-color="#F8FAFC" />
       <stop offset="100%" stop-color="#E2E8F0" />
     </linearGradient>
 
-    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="cyanAccentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00F0FF" />
       <stop offset="100%" stop-color="#38BDF8" />
     </linearGradient>
 
-    <!-- Soft Ambient Light -->
-    <radialGradient id="ambientCyan" cx="80%" cy="35%" r="55%">
-      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.10" />
-      <stop offset="60%" stop-color="#00F0FF" stop-opacity="0.02" />
+    <!-- Ambient Subtle Cyan Atmospheric Light -->
+    <radialGradient id="subtleCyanLight" cx="80%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.09" />
+      <stop offset="50%" stop-color="#00F0FF" stop-opacity="0.015" />
       <stop offset="100%" stop-color="#000000" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Frosted Protection Shield for Typography -->
-    <radialGradient id="textShield" cx="25%" cy="50%" r="60%">
-      <stop offset="0%" stop-color="#030509" stop-opacity="0.95" />
-      <stop offset="60%" stop-color="#030509" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#030509" stop-opacity="0" />
+    <!-- Frosted Radial Shield For Text Legibility -->
+    <radialGradient id="pureBlackShield" cx="25%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.98" />
+      <stop offset="60%" stop-color="#000000" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Subtle Outer Glow Filter -->
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
+    <!-- CSS Glow Filters -->
+    <filter id="glowEffect" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
 
     <style>
-      @keyframes synapGlow {
-        0%, 100% { opacity: 0.12; }
-        50% { opacity: 0.35; }
+      /* Embedded Modern CSS Design System */
+      :root {
+        --bg-black: #000000;
+        --accent-cyan: #00F0FF;
+        --accent-blue: #38BDF8;
+        --border-color: #161B26;
       }
-      @keyframes nodePulse {
-        0%, 100% { r: 3.5; opacity: 0.5; }
-        50% { r: 5; opacity: 0.9; }
+
+      @keyframes synapsePulse {
+        0%, 100% { opacity: 0.12; stroke-width: 0.8; }
+        50% { opacity: 0.4; stroke-width: 1.2; }
       }
-      @keyframes dataPacket {
-        0% { stroke-dashoffset: 280; }
+
+      @keyframes nodeGlowPulse {
+        0%, 100% { r: 3.5; opacity: 0.4; }
+        50% { r: 5.5; opacity: 0.9; }
+      }
+
+      @keyframes dataStreamTravel {
+        0% { stroke-dashoffset: 320; }
         100% { stroke-dashoffset: 0; }
       }
-      @keyframes liveBlink {
+
+      @keyframes liveStatusBlink {
         0%, 100% { opacity: 1; }
-        50% { opacity: 0.3; }
+        50% { opacity: 0.25; }
       }
 
-      .synap-link {
-        animation: synapGlow 6s ease-in-out infinite;
-      }
-      .node-core {
-        animation: nodePulse 4s ease-in-out infinite;
-      }
-      .data-packet-flow {
-        stroke-dasharray: 6 90;
-        animation: dataPacket 5s linear infinite;
-      }
-      .live-dot {
-        animation: liveBlink 2.2s ease-in-out infinite;
+      .synapse-line {
+        animation: synapsePulse 5.5s ease-in-out infinite;
       }
 
-      .mono-text {
+      .pulse-node {
+        animation: nodeGlowPulse 4s ease-in-out infinite;
+      }
+
+      .data-signal {
+        stroke-dasharray: 6 100;
+        animation: dataStreamTravel 5.5s linear infinite;
+      }
+
+      .status-indicator {
+        animation: liveStatusBlink 2s ease-in-out infinite;
+      }
+
+      .mono-code {
         font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
       }
-      .sans-text {
+
+      .sans-heading {
         font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      }
+
+      .pill-card {
+        fill: #06080F;
+        stroke: #161D2C;
+        stroke-width: 1;
+        transition: all 0.3s ease;
       }
     </style>
   </defs>
 
-  <!-- Container Base -->
-  <rect width="960" height="300" rx="14" fill="url(#cyberBg)" stroke="#1A2234" stroke-width="1.2" />
-  <rect width="960" height="300" rx="14" fill="url(#ambientCyan)" />
+  <!-- ==================== TRUE BLACK BASE CANVAS ==================== -->
+  <rect width="960" height="300" rx="14" fill="url(#blackCanvas)" stroke="#161B26" stroke-width="1.2" />
+  <rect width="960" height="300" rx="14" fill="url(#subtleCyanLight)" />
 
-  <!-- Background Technical Crosshairs (+) -->
+  <!-- Subtle Technical Crosshairs (+) -->
   <g stroke="#00F0FF" stroke-opacity="0.08" stroke-width="0.75">
     <path d="M 120 45 L 126 45 M 123 42 L 123 48" />
     <path d="M 480 35 L 486 35 M 483 32 L 483 38" />
@@ -93,31 +115,31 @@
     <path d="M 680 270 L 686 270 M 683 267 L 683 273" />
   </g>
 
-  <!-- ==================== SUBTLE ATMOSPHERIC NEURAL MESH (Right Background) ==================== -->
+  <!-- ==================== RESTING SUBTLE CYBER DATA NODES ==================== -->
   <g fill="none">
     <!-- Synaptic Filament Connections -->
-    <line x1="680" y1="90" x2="770" y2="60" stroke="#00F0FF" stroke-width="1" class="synap-link" />
-    <line x1="770" y1="60" x2="870" y2="85" stroke="#00F0FF" stroke-width="1" class="synap-link" />
-    <line x1="770" y1="60" x2="800" y2="150" stroke="#38BDF8" stroke-width="0.9" class="synap-link" />
-    <line x1="680" y1="90" x2="720" y2="180" stroke="#00F0FF" stroke-width="0.9" class="synap-link" />
-    <line x1="720" y1="180" x2="800" y2="150" stroke="#00F0FF" stroke-width="1" class="synap-link" />
-    <line x1="800" y1="150" x2="890" y2="160" stroke="#00F0FF" stroke-width="1" class="synap-link" />
-    <line x1="870" y1="85" x2="890" y2="160" stroke="#38BDF8" stroke-width="0.9" class="synap-link" />
-    <line x1="800" y1="150" x2="830" y2="235" stroke="#00F0FF" stroke-width="1" class="synap-link" />
-    <line x1="720" y1="180" x2="770" y2="250" stroke="#38BDF8" stroke-width="0.9" class="synap-link" />
-    <line x1="770" y1="250" x2="830" y2="235" stroke="#00F0FF" stroke-width="1" class="synap-link" />
-    <line x1="830" y1="235" x2="910" y2="245" stroke="#00F0FF" stroke-width="1" class="synap-link" />
-    <line x1="890" y1="160" x2="910" y2="245" stroke="#38BDF8" stroke-width="0.9" class="synap-link" />
+    <line x1="680" y1="90" x2="770" y2="60" stroke="#00F0FF" class="synapse-line" />
+    <line x1="770" y1="60" x2="870" y2="85" stroke="#00F0FF" class="synapse-line" />
+    <line x1="770" y1="60" x2="800" y2="150" stroke="#38BDF8" class="synapse-line" />
+    <line x1="680" y1="90" x2="720" y2="180" stroke="#00F0FF" class="synapse-line" />
+    <line x1="720" y1="180" x2="800" y2="150" stroke="#00F0FF" class="synapse-line" />
+    <line x1="800" y1="150" x2="890" y2="160" stroke="#00F0FF" class="synapse-line" />
+    <line x1="870" y1="85" x2="890" y2="160" stroke="#38BDF8" class="synapse-line" />
+    <line x1="800" y1="150" x2="830" y2="235" stroke="#00F0FF" class="synapse-line" />
+    <line x1="720" y1="180" x2="770" y2="250" stroke="#38BDF8" class="synapse-line" />
+    <line x1="770" y1="250" x2="830" y2="235" stroke="#00F0FF" class="synapse-line" />
+    <line x1="830" y1="235" x2="910" y2="245" stroke="#00F0FF" class="synapse-line" />
+    <line x1="890" y1="160" x2="910" y2="245" stroke="#38BDF8" class="synapse-line" />
 
-    <!-- Animated Traveling Data Packets (Subtle and atmospheric) -->
+    <!-- Animated Traveling Data Packets -->
     <path d="M 680 90 L 770 60 L 870 85 L 890 160 L 830 235 L 910 245" 
-          stroke="#00F0FF" stroke-width="1.8" stroke-linecap="round" class="data-packet-flow" filter="url(#softGlow)" />
+          stroke="#00F0FF" stroke-width="1.8" stroke-linecap="round" class="data-signal" filter="url(#glowEffect)" />
     
     <path d="M 720 180 L 800 150 L 870 85" 
-          stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" class="data-packet-flow" />
+          stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" class="data-signal" />
 
-    <!-- Floating Synaptic Nodes -->
-    <g fill="#060C1B" stroke="#00F0FF" stroke-width="1.5">
+    <!-- Solid Cyan Network Nodes -->
+    <g fill="#020408" stroke="#00F0FF" stroke-width="1.4">
       <circle cx="680" cy="90" r="4" />
       <circle cx="770" cy="60" r="4.5" stroke="#FFFFFF" />
       <circle cx="870" cy="85" r="4" />
@@ -130,9 +152,9 @@
     </g>
 
     <!-- Node Glow Pulses -->
-    <circle cx="770" cy="60" r="3.5" fill="#00F0FF" class="node-core" filter="url(#softGlow)" />
-    <circle cx="800" cy="150" r="4" fill="#00F0FF" class="node-core" filter="url(#softGlow)" />
-    <circle cx="830" cy="235" r="3.5" fill="#38BDF8" class="node-core" filter="url(#softGlow)" />
+    <circle cx="770" cy="60" r="3.5" fill="#00F0FF" class="pulse-node" filter="url(#glowEffect)" />
+    <circle cx="800" cy="150" r="4" fill="#00F0FF" class="pulse-node" filter="url(#glowEffect)" />
+    <circle cx="830" cy="235" r="3.5" fill="#38BDF8" class="pulse-node" filter="url(#glowEffect)" />
 
     <!-- Node Centers -->
     <circle cx="770" cy="60" r="1.5" fill="#FFFFFF" />
@@ -140,10 +162,10 @@
     <circle cx="830" cy="235" r="1.8" fill="#FFFFFF" />
   </g>
 
-  <!-- ==================== FROSTED SHIELD (ENSURES 100% TEXT READABILITY) ==================== -->
-  <rect x="0" y="0" width="620" height="300" rx="14" fill="url(#textShield)" />
+  <!-- ==================== FROSTED SHIELD (ENSURES 100% READABILITY) ==================== -->
+  <rect x="0" y="0" width="620" height="300" rx="14" fill="url(#pureBlackShield)" />
 
-  <!-- Corner Tech Markers -->
+  <!-- Corner Tech Accents -->
   <path d="M 14 32 L 14 14 L 32 14" fill="none" stroke="#00F0FF" stroke-width="1.8" stroke-opacity="0.6" />
   <path d="M 946 32 L 946 14 L 928 14" fill="none" stroke="#00F0FF" stroke-width="1.8" stroke-opacity="0.6" />
   <path d="M 14 268 L 14 286 L 32 286" fill="none" stroke="#00F0FF" stroke-width="1.8" stroke-opacity="0.6" />
@@ -151,56 +173,56 @@
 
   <!-- ==================== TOP TELEMETRY HUD BAR ==================== -->
   <g transform="translate(48, 38)">
-    <circle cx="5" cy="5" r="3.5" fill="#00F0FF" class="live-dot" filter="url(#softGlow)" />
+    <circle cx="5" cy="5" r="3.5" fill="#00F0FF" class="status-indicator" filter="url(#glowEffect)" />
     <circle cx="5" cy="5" r="1.5" fill="#FFFFFF" />
     
-    <text x="18" y="9" fill="#00F0FF" font-size="10.5" font-weight="700" letter-spacing="1.5" class="mono-text">
+    <text x="18" y="9" fill="#00F0FF" font-size="10.5" font-weight="700" letter-spacing="1.5" class="mono-code">
       SYS.STATUS // ONLINE &amp; ACTIVE
     </text>
 
-    <text x="320" y="9" fill="#64748B" font-size="10.5" font-weight="500" letter-spacing="0.8" class="mono-text">
+    <text x="320" y="9" fill="#64748B" font-size="10.5" font-weight="500" letter-spacing="0.8" class="mono-code">
       VTU CSE (DATA SCIENCE)
     </text>
 
-    <text x="640" y="9" fill="#475569" font-size="10.5" font-weight="500" letter-spacing="0.5" class="mono-text">
+    <text x="640" y="9" fill="#475569" font-size="10.5" font-weight="500" letter-spacing="0.5" class="mono-code">
       LOC: BENGALURU, IN / REMOTE
     </text>
   </g>
 
-  <!-- ==================== MAIN IDENTITY CONTENT ==================== -->
+  <!-- ==================== MAIN HERO TYPOGRAPHY ==================== -->
   <g transform="translate(48, 92)">
     <!-- Primary Name Headline -->
-    <text x="0" y="46" fill="url(#titleGrad)" font-size="44" font-weight="800" letter-spacing="-0.5" class="sans-text">
+    <text x="0" y="46" fill="url(#whiteTitleGrad)" font-size="44" font-weight="800" letter-spacing="-0.5" class="sans-heading">
       VAIBHAV MADIVAL
     </text>
 
     <!-- Role Sub-Headline -->
-    <text x="0" y="80" fill="url(#cyanGrad)" font-size="15.5" font-weight="700" letter-spacing="2" class="mono-text">
+    <text x="0" y="80" fill="url(#cyanAccentGrad)" font-size="15.5" font-weight="700" letter-spacing="2" class="mono-code">
       DATA SCIENCE ENGINEER | AI/ML | FULL STACK
     </text>
 
     <!-- Professional Statement -->
-    <text x="0" y="112" fill="#94A3B8" font-size="13.5" font-weight="400" letter-spacing="0.1" class="sans-text">
+    <text x="0" y="112" fill="#94A3B8" font-size="13.5" font-weight="400" letter-spacing="0.1" class="sans-heading">
       Building intelligent, data-driven systems with machine learning, modern engineering and scalable technologies.
     </text>
 
     <!-- Capsule Skill Chips -->
     <g transform="translate(0, 138)">
       <!-- Pill 1 -->
-      <rect x="0" y="0" width="138" height="26" rx="5" fill="#080E1A" stroke="#00F0FF" stroke-opacity="0.4" stroke-width="1" />
-      <text x="12" y="17" fill="#E2E8F0" font-size="11" font-weight="600" class="mono-text">Machine Learning</text>
+      <rect x="0" y="0" width="138" height="26" rx="5" class="pill-card" />
+      <text x="12" y="17" fill="#E2E8F0" font-size="11" font-weight="600" class="mono-code">Machine Learning</text>
 
       <!-- Pill 2 -->
-      <rect x="148" y="0" width="128" height="26" rx="5" fill="#080E1A" stroke="#00F0FF" stroke-opacity="0.4" stroke-width="1" />
-      <text x="160" y="17" fill="#E2E8F0" font-size="11" font-weight="600" class="mono-text">MLOps &amp; Cloud</text>
+      <rect x="148" y="0" width="128" height="26" rx="5" class="pill-card" />
+      <text x="160" y="17" fill="#E2E8F0" font-size="11" font-weight="600" class="mono-code">MLOps &amp; Cloud</text>
 
       <!-- Pill 3 -->
-      <rect x="286" y="0" width="134" height="26" rx="5" fill="#080E1A" stroke="#00F0FF" stroke-opacity="0.4" stroke-width="1" />
-      <text x="298" y="17" fill="#E2E8F0" font-size="11" font-weight="600" class="mono-text">Speech AI &amp; NLP</text>
+      <rect x="286" y="0" width="134" height="26" rx="5" class="pill-card" />
+      <text x="298" y="17" fill="#E2E8F0" font-size="11" font-weight="600" class="mono-code">Speech AI &amp; NLP</text>
 
       <!-- Pill 4 -->
-      <rect x="430" y="0" width="168" height="26" rx="5" fill="#080E1A" stroke="#00F0FF" stroke-opacity="0.4" stroke-width="1" />
-      <text x="442" y="17" fill="#E2E8F0" font-size="11" font-weight="600" class="mono-text">Full Stack &amp; FastAPI</text>
+      <rect x="430" y="0" width="168" height="26" rx="5" class="pill-card" />
+      <text x="442" y="17" fill="#E2E8F0" font-size="11" font-weight="600" class="mono-code">Full Stack &amp; FastAPI</text>
     </g>
   </g>
 </svg>
