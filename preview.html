@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaibhav Madival // Profile README Preview</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-dark.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    body {
+      background-color: #020408;
+      color: #E2E8F0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", "Segoe UI", Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .preview-container {
+      max-width: 960px;
+      width: 100%;
+      background: #04060A;
+      border: 1px solid #1A2234;
+      border-radius: 14px;
+      padding: 44px;
+      box-shadow: 0 25px 60px rgba(0, 240, 255, 0.04);
+    }
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 20px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid #1A2234;
+      font-family: monospace;
+      font-size: 12px;
+      color: #00F0FF;
+    }
+    .markdown-body {
+      background-color: transparent !important;
+      color: #E2E8F0 !important;
+    }
+    .markdown-body table {
+      width: 100%;
+      background-color: #060912 !important;
+      border: 1px solid #1A2234 !important;
+    }
+    .markdown-body th, .markdown-body td {
+      border: 1px solid #1A2234 !important;
+      padding: 18px !important;
+    }
+    .markdown-body tr {
+      background-color: #080D1A !important;
+    }
+    .markdown-body pre {
+      background-color: #050812 !important;
+      border: 1px solid #1A2234 !important;
+    }
+    .markdown-body code {
+      background-color: rgba(0, 240, 255, 0.08) !important;
+      color: #38BDF8 !important;
+      border: 1px solid rgba(0, 240, 255, 0.2);
+    }
+    .markdown-body a {
+      color: #00F0FF !important;
+      text-decoration: none;
+    }
+    .markdown-body a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="preview-container">
+    <div class="top-bar">
+      <span>● GITHUB PROFILE README LIVE PREVIEW // CYBER-TECH AESTHETIC</span>
+      <span>USER: vaibhavvm2005</span>
+    </div>
+    <div id="content" class="markdown-body">
+      Loading profile README...
+    </div>
+  </div>
+
+  <script>
+    fetch('README.md')
+      .then(res => res.text())
+      .then(md => {
+        document.getElementById('content').innerHTML = marked.parse(md);
+      })
+      .catch(err => {
+        document.getElementById('content').innerText = 'Error loading README.md: ' + err;
+      });
+  </script>
+</body>
+</html>

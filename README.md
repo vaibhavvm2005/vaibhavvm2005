@@ -1,233 +1,366 @@
 <div align="center">
 
-  <!-- ======================== RIO PROPERTY HERO BANNER ======================== -->
-  <img src="assets/hero.svg" alt="VAIBHAV MADIVAL ARCHITECTS INTELLIGENT SYSTEMS" width="100%" />
+  <!-- ======================== HERO BANNER ======================== -->
+  <img src="assets/hero.svg" alt="Vaibhav Madival // Data Science Engineer | AI/ML | Full Stack" width="100%" />
 
   <br /><br />
 
-  <!-- DYNAMIC TYPING -->
+  <!-- DYNAMIC TYPING SUBTITLE -->
   <p align="center">
     <a href="https://github.com/vaibhavvm2005">
-      <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=20&duration=2600&pause=1200&color=E8FF54&center=true&vCenter=true&multiline=false&width=620&height=40&lines=Engineering+production+machine+learning+systems.;Predictive+intelligence+with+0.942+ROC-AUC.;Edge+AI+and+high-throughput+FastAPI+services." alt="Data Science & AI Engineer Typing" />
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2800&pause=1200&color=00F0FF&center=true&vCenter=true&multiline=false&width=750&height=36&lines=Building+intelligent%2C+data-driven+systems+with+machine+learning.;Architecting+scalable+MLOps+pipelines+and+high-throughput+APIs.;Transforming+complex+data+into+predictive+intelligence.;Developing+resilient+cloud-native+microservices+on+AWS." alt="Vaibhav Madival Typing Subtitle" />
     </a>
   </p>
 
-  <br />
-
-  <!-- NAVIGATION PILLS -->
+  <!-- QUICK NAVIGATION / METADATA -->
   <p align="center">
-    <a href="#-done-deals--featured-projects">
-      <img src="https://img.shields.io/badge/TRACK_RECORD-070414?style=for-the-badge&logoColor=E8FF54&labelColor=070414&color=140A38" alt="Track Record" />
+    <a href="https://github.com/vaibhavvm2005">
+      <img src="https://img.shields.io/badge/Status-Online%20%26%20Active-04060A?style=flat-square&logoColor=00F0FF&labelColor=04060A&color=00F0FF" alt="Status" />
     </a>
-    &nbsp;&nbsp;
-    <a href="#-capabilities--services">
-      <img src="https://img.shields.io/badge/CAPABILITIES-070414?style=for-the-badge&logoColor=E8FF54&labelColor=070414&color=140A38" alt="Capabilities" />
+    &nbsp;
+    <a href="#-03-tech-stack">
+      <img src="https://img.shields.io/badge/Focus-Data%20Science%20%26%20AI-04060A?style=flat-square&logoColor=38BDF8&labelColor=04060A&color=1A2234" alt="Focus" />
     </a>
-    &nbsp;&nbsp;
-    <a href="#-get-in-touch">
-      <img src="https://img.shields.io/badge/GET_IN_TOUCH-070414?style=for-the-badge&logoColor=E8FF54&labelColor=070414&color=140A38" alt="Get In Touch" />
+    &nbsp;
+    <a href="#-04-featured-projects">
+      <img src="https://img.shields.io/badge/Projects-Production%20Ready-04060A?style=flat-square&logoColor=E2E8F0&labelColor=04060A&color=1A2234" alt="Projects" />
+    </a>
+    &nbsp;
+    <a href="https://www.linkedin.com/in/vaibhav-madival">
+      <img src="https://img.shields.io/badge/LinkedIn-Connect%20%E2%86%97-04060A?style=flat-square&logoColor=00F0FF&labelColor=04060A&color=1A2234" alt="LinkedIn" />
     </a>
   </p>
 
+  <img src="assets/cyber-divider.svg" width="100%" />
+
 </div>
 
 <br />
 
----
+## 👤 // 01. ABOUT ME
 
-### ⚡ Overview
+I am a **Computer Science & Engineering (Data Science)** student passionate about building intelligent, production-ready systems at the intersection of **Machine Learning**, **Data Science**, and **Scalable Backend Infrastructure**.
 
-<div align="center">
-  <img src="assets/overview-hook.svg" alt="You're probably here to see what I actually build." width="100%" />
-</div>
-
-<br />
-
----
-
-### 🚀 Done Deals // Featured Projects
-
-<br />
-
-<!-- PROJECT 1 CARD -->
-<div align="center">
-  <a href="https://github.com/vaibhavvm2005/customer-churn-prediction">
-    <img src="assets/project-card-1.svg" alt="Project 01: Customer Churn Predictive Pipeline" width="100%" />
-  </a>
-</div>
-
-<br />
-
-<!-- PROJECT 2 CARD -->
-<div align="center">
-  <a href="https://github.com/vaibhavvm2005/mental-health-ai-assistant">
-    <img src="assets/project-card-2.svg" alt="Project 02: Mental Health AI Companion" width="100%" />
-  </a>
-</div>
+Rather than viewing models in isolation, I develop complete operational lifecycles: from exploratory data analysis and feature engineering to experiment tracking with MLflow, containerized REST API microservices with FastAPI & Docker, and cloud deployments on AWS.
 
 <br />
 
 <table>
-  <!-- PROJECT 3 -->
   <tr>
     <td width="50%" valign="top">
-      <span style="color: #E8FF54; font-weight: 800; font-size: 11px;">PROJECT 03 // EDGE AI</span>
-      <h3>🌱 AgriGita — Smart Water Management</h3>
+      <h4><code>01 /</code> PREDICTIVE SYSTEMS &amp; ML</h4>
       <p>
-        An IoT and Edge-AI agricultural platform built for automated soil telemetry and precision irrigation actuation.
-      </p>
-      <ul>
-        <li>On-device edge computation powered by the <b>NVIDIA Jetson Nano</b>.</li>
-        <li>Continuous telemetry ingestion for soil moisture, humidity, and temperature.</li>
-        <li>Automated algorithmic pump switching based on dynamic soil thresholds.</li>
-        <li>Saves up to 40% irrigation water while preserving crop hydration.</li>
-      </ul>
-      <p>
-        <code>IoT Sensors</code> • <code>NVIDIA Jetson Nano</code> • <code>Python</code> • <code>Edge AI</code>
+        Supervised classification, regression, customer churn forecasting, hyperparameter tuning, and SHAP explainability.
       </p>
       <p>
-        🔗 <a href="https://github.com/vaibhavvm2005/agrigita-smart-water-management"><b>[Explore Repository ↗]</b></a>
+        <code>Scikit-learn</code> • <code>XGBoost</code> • <code>Pandas</code> • <code>NumPy</code>
       </p>
     </td>
-    <!-- PROJECT 4 -->
     <td width="50%" valign="top">
-      <span style="color: #E8FF54; font-weight: 800; font-size: 11px;">PROJECT 04 // FULL-STACK</span>
-      <h3>⚡ Task Manager Pro</h3>
+      <h4><code>02 /</code> SPEECH AI &amp; NLP</h4>
       <p>
-        A high-throughput productivity and task orchestrator platform built with the MERN stack for team workflow tracking.
-      </p>
-      <ul>
-        <li>Modular RESTful API endpoints for complete task lifecycle (CRUD) operations.</li>
-        <li>Multi-criteria filtering, real-time search, and dynamic column sorting.</li>
-        <li>Interactive dashboard charts detailing task completion velocity.</li>
-        <li>Indexed query optimization and schema validation with MongoDB.</li>
-      </ul>
-      <p>
-        <code>MongoDB</code> • <code>Express.js</code> • <code>React.js</code> • <code>Node.js</code> • <code>REST APIs</code>
+        Acoustic transcription pipelines, contextual sentiment analysis, and zero-leakage PII redaction for enterprise NLP workflows.
       </p>
       <p>
-        🔗 <a href="https://github.com/vaibhavvm2005/task-manager-pro"><b>[Explore Repository ↗]</b></a>
+        <code>OpenAI Whisper</code> • <code>Microsoft Presidio</code> • <code>NLP</code>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><code>03 /</code> EDGE COMPUTING &amp; IOT</h4>
+      <p>
+        Hardware-accelerated edge inference on NVIDIA Jetson Nano, live sensor telemetry ingestion, and automated hardware actuation.
+      </p>
+      <p>
+        <code>NVIDIA Jetson</code> • <code>Telemetry Ingestion</code> • <code>Edge ML</code>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><code>04 /</code> MLOPS &amp; CLOUD DEPLOYMENT</h4>
+      <p>
+        Asynchronous FastAPI microservices, MLflow experiment tracking &amp; model registry, Docker containers, and AWS cloud deployment.
+      </p>
+      <p>
+        <code>FastAPI</code> • <code>MLflow</code> • <code>Docker</code> • <code>AWS (S3/EC2)</code>
       </p>
     </td>
   </tr>
 </table>
 
----
+<br />
 
-### 🧠 Capabilities // Services
+<div align="center">
+  <img src="assets/cyber-divider.svg" width="100%" />
+</div>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>01 / PREDICTIVE MODELING</h3>
-      <p>
-        Supervised classification, regression, customer churn modeling, and feature importance analysis using Scikit-learn and XGBoost.
-      </p>
-      <p><code>Scikit-learn</code> • <code>XGBoost</code> • <code>SHAP</code> • <code>Statistics</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>02 / SPEECH AI &amp; NLP</h3>
-      <p>
-        Multimodal acoustic speech-to-text with OpenAI Whisper and privacy-preserving PII masking with Microsoft Presidio.
-      </p>
-      <p><code>Whisper AI</code> • <code>Microsoft Presidio</code> • <code>NLP</code> • <code>Python</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>03 / EDGE COMPUTING &amp; IOT</h3>
-      <p>
-        Hardware-accelerated neural inference on the NVIDIA Jetson Nano to process live sensor telemetry and control physical relays.
-      </p>
-      <p><code>NVIDIA Jetson</code> • <code>IoT Telemetry</code> • <code>Hardware Control</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>04 / MLOPS &amp; CLOUD DEPLOYMENT</h3>
-      <p>
-        High-throughput asynchronous FastAPI microservices, MLflow experiment tracking, Docker containerization, and AWS hosting.
-      </p>
-      <p><code>FastAPI</code> • <code>MLflow</code> • <code>Docker</code> • <code>AWS</code></p>
-    </td>
-  </tr>
-</table>
+<br />
 
----
+## 🎓 // 02. EDUCATION & BACKGROUND
 
-### ⚡ Technology Arsenal
+```
+┌── [ 2022 — Present ] ─────────────────────────────────────────────────────────────┐
+│  B.E. in Computer Science & Engineering (Data Science)                             │
+│  Alva's Institute of Engineering and Technology (AIET)                             │
+│  Affiliated with Visvesvaraya Technological University (VTU), Karnataka            │
+└────────────────────────────────────────────────────────────────────────────────────┘
+```
 
-<p align="center">
-  <code>PYTHON</code> &nbsp;•&nbsp;
-  <code>SQL</code> &nbsp;•&nbsp;
-  <code>C++</code> &nbsp;•&nbsp;
-  <code>SCIKIT-LEARN</code> &nbsp;•&nbsp;
-  <code>XGBOOST</code> &nbsp;•&nbsp;
-  <code>PYTORCH</code> &nbsp;•&nbsp;
-  <code>TENSORFLOW</code> &nbsp;•&nbsp;
-  <code>FASTAPI</code> &nbsp;•&nbsp;
-  <code>MLFLOW</code> &nbsp;•&nbsp;
-  <code>DOCKER</code> &nbsp;•&nbsp;
-  <code>AWS</code> &nbsp;•&nbsp;
-  <code>PANDAS</code> &nbsp;•&nbsp;
-  <code>NUMPY</code> &nbsp;•&nbsp;
-  <code>MONGODB</code> &nbsp;•&nbsp;
-  <code>NVIDIA JETSON</code>
+* **Core Competencies**: Machine Learning, Statistical Modeling, Data Structures & Algorithms, Database Management Systems, Operating Systems, Cloud Computing, Object-Oriented Programming (C++/Python).
+* **Engineering Objective**: Architecting resilient, data-driven systems and deploying high-performance machine learning models to production.
+
+<br />
+
+<div align="center">
+  <img src="assets/cyber-divider.svg" width="100%" />
+</div>
+
+<br />
+
+## 🛠️ // 03. TECH STACK
+
+Organized by engineering discipline with verified technology stacks:
+
+<br />
+
+### ❯ PROGRAMMING
+<p>
+  <img src="https://img.shields.io/badge/Python-04060A?style=for-the-badge&logo=python&logoColor=00F0FF&labelColor=04060A&color=1A2234" alt="Python" />
+  <img src="https://img.shields.io/badge/C++-04060A?style=for-the-badge&logo=cplusplus&logoColor=00F0FF&labelColor=04060A&color=1A2234" alt="C++" />
+  <img src="https://img.shields.io/badge/SQL-04060A?style=for-the-badge&logo=mysql&logoColor=00F0FF&labelColor=04060A&color=1A2234" alt="SQL" />
 </p>
 
+### ❯ DATA & ANALYTICS
+<p>
+  <img src="https://img.shields.io/badge/Pandas-04060A?style=for-the-badge&logo=pandas&logoColor=38BDF8&labelColor=04060A&color=1A2234" alt="Pandas" />
+  <img src="https://img.shields.io/badge/NumPy-04060A?style=for-the-badge&logo=numpy&logoColor=38BDF8&labelColor=04060A&color=1A2234" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Matplotlib-04060A?style=for-the-badge&logo=python&logoColor=38BDF8&labelColor=04060A&color=1A2234" alt="Matplotlib" />
+  <img src="https://img.shields.io/badge/Plotly-04060A?style=for-the-badge&logo=plotly&logoColor=38BDF8&labelColor=04060A&color=1A2234" alt="Plotly" />
+  <img src="https://img.shields.io/badge/Power_BI-04060A?style=for-the-badge&logo=powerbi&logoColor=38BDF8&labelColor=04060A&color=1A2234" alt="Power BI" />
+</p>
+
+### ❯ MACHINE LEARNING
+<p>
+  <img src="https://img.shields.io/badge/Scikit--Learn-04060A?style=for-the-badge&logo=scikitlearn&logoColor=00F0FF&labelColor=04060A&color=1A2234" alt="Scikit-Learn" />
+  <img src="https://img.shields.io/badge/XGBoost-04060A?style=for-the-badge&logo=xgboost&logoColor=00F0FF&labelColor=04060A&color=1A2234" alt="XGBoost" />
+</p>
+
+### ❯ BACKEND & API
+<p>
+  <img src="https://img.shields.io/badge/FastAPI-04060A?style=for-the-badge&logo=fastapi&logoColor=38BDF8&labelColor=04060A&color=1A2234" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/MLflow-04060A?style=for-the-badge&logo=mlflow&logoColor=38BDF8&labelColor=04060A&color=1A2234" alt="MLflow" />
+  <img src="https://img.shields.io/badge/Streamlit-04060A?style=for-the-badge&logo=streamlit&logoColor=38BDF8&labelColor=04060A&color=1A2234" alt="Streamlit" />
+</p>
+
+### ❯ CLOUD & DEVOPS
+<p>
+  <img src="https://img.shields.io/badge/AWS-04060A?style=for-the-badge&logo=amazonwebservices&logoColor=00F0FF&labelColor=04060A&color=1A2234" alt="AWS" />
+  <img src="https://img.shields.io/badge/Docker-04060A?style=for-the-badge&logo=docker&logoColor=00F0FF&labelColor=04060A&color=1A2234" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-04060A?style=for-the-badge&logo=git&logoColor=00F0FF&labelColor=04060A&color=1A2234" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-04060A?style=for-the-badge&logo=github&logoColor=00F0FF&labelColor=04060A&color=1A2234" alt="GitHub" />
+</p>
+
+### ❯ DATABASES
+<p>
+  <img src="https://img.shields.io/badge/MySQL-04060A?style=for-the-badge&logo=mysql&logoColor=38BDF8&labelColor=04060A&color=1A2234" alt="MySQL" />
+  <img src="https://img.shields.io/badge/MongoDB-04060A?style=for-the-badge&logo=mongodb&logoColor=38BDF8&labelColor=04060A&color=1A2234" alt="MongoDB" />
+</p>
+
+### ❯ TOOLS
+<p>
+  <img src="https://img.shields.io/badge/VS_Code-04060A?style=for-the-badge&logo=visualstudiocode&logoColor=E2E8F0&labelColor=04060A&color=1A2234" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Jupyter-04060A?style=for-the-badge&logo=jupyter&logoColor=E2E8F0&labelColor=04060A&color=1A2234" alt="Jupyter" />
+</p>
+
+<br />
+
+<div align="center">
+  <img src="assets/cyber-divider.svg" width="100%" />
+</div>
+
+<br />
+
+## 🧪 // 04. FEATURED PROJECTS
+
+Featured engineering case studies demonstrating end-to-end architecture, mathematical modeling, and production deployment:
+
+<br />
+
+### `PROJECT 01` — Customer Churn Prediction System
+> **End-to-end production predictive pipeline, experiment tracking with MLflow, asynchronous FastAPI service, and containerized deployment on AWS.**
+
+<div align="center">
+  <a href="https://github.com/vaibhavvm2005/customer-churn-prediction">
+    <img src="assets/project-churn-arch.svg" alt="Customer Churn System Architecture" width="100%" />
+  </a>
+</div>
+
+<br />
+
+* **Data Preprocessing & EDA**: Imputed, normalized, and transformed high-dimensional customer activity telemetry; applied categorical encoding and collinearity reduction.
+* **Model Training & Evaluation**: Evaluated ensemble algorithms (XGBoost, Random Forest, Logistic Regression); optimized hyperparameters via stratified cross-validation.
+* **Experiment Management**: Logged runs, evaluation metrics (ROC-AUC 0.942), and model artifacts with **MLflow**.
+* **FastAPI REST Service**: Built an asynchronous **FastAPI** service for sub-25ms real-time churn risk inference.
+* **Docker & AWS Deployment**: Containerized the entire inference runtime with **Docker** and deployed on **AWS (EC2 & S3)**.
+
+<p>
+  <code>Python</code> • <code>Scikit-learn</code> • <code>XGBoost</code> • <code>MLflow</code> • <code>FastAPI</code> • <code>Docker</code> • <code>AWS EC2/S3</code>
+</p>
+
+<p>
+  🔗 <a href="https://github.com/vaibhavvm2005/customer-churn-prediction"><b>[ ➔ View Repository &amp; Architecture ]</b></a>
+</p>
+
+<br />
+
 ---
 
-### 📊 GitHub Radar // Activity
+<br />
+
+### `PROJECT 02` — Mental Health AI / Voice Assistant
+> **Speech-interactive AI platform with automated zero-knowledge PII sanitization and contextual sentiment analysis.**
+
+* **Speech Processing**: Integrates **OpenAI Whisper** for high-accuracy phonetic transcription from real-time microphone input.
+* **Privacy-Preserving PII Redaction**: Integrates **Microsoft Presidio** to detect and anonymize personal identifiers (names, locations, contact info) prior to text processing.
+* **Empathetic Interaction Engine**: Analyzes contextual sentiment and generates structured supportive responses in real time.
+* **Interactive Interface**: Developed with **Streamlit** for responsive, cross-platform client interaction.
+
+<p>
+  <code>Python</code> • <code>OpenAI Whisper</code> • <code>Microsoft Presidio</code> • <code>Streamlit</code> • <code>NLP</code>
+</p>
+
+<p>
+  🔗 <a href="https://github.com/vaibhavvm2005/mental-health-ai-assistant"><b>[ ➔ View Application Repository ]</b></a>
+</p>
+
+<br />
+
+---
+
+<br />
+
+### `PROJECT 03` — AgriGita — Smart Water Management System
+> **IoT telemetry acquisition and edge machine learning system on NVIDIA Jetson Nano for automated precision irrigation.**
+
+* **Edge Telemetry Processing**: Deployed on the **NVIDIA Jetson Nano** platform to process multi-channel soil moisture, ambient humidity, and temperature telemetry.
+* **Dynamic Threshold Actuation**: Implements dynamic threshold heuristics to actuate automated relay solenoid valves based on environmental conditions.
+* **Resource Optimization**: Achieves up to **40% water savings** while maintaining optimal soil hydration levels for agricultural yields.
+
+<p>
+  <code>NVIDIA Jetson Nano</code> • <code>IoT Sensors</code> • <code>Python</code> • <code>Edge AI</code> • <code>Hardware Relays</code>
+</p>
+
+<p>
+  🔗 <a href="https://github.com/vaibhavvm2005/agrigita-smart-water-management"><b>[ ➔ View Edge System Repository ]</b></a>
+</p>
+
+<br />
+
+---
+
+<br />
+
+### `PROJECT 04` — Task Manager Pro
+> **MERN stack productivity engine with multi-parameter query optimization, search indexing, and real-time analytics.**
+
+* **RESTful Micro-Endpoints**: Robust Express and Node.js API supporting complete lifecycle (CRUD) operations and schema-level validation.
+* **Search & Filter Optimization**: Multi-criteria query filtering, text-based search indexing, and dynamic property sorting on MongoDB.
+* **Telemetry Dashboard**: Dynamic velocity charts and visual completion metrics built with React state management.
+
+<p>
+  <code>MongoDB</code> • <code>Express.js</code> • <code>React.js</code> • <code>Node.js</code> • <code>REST APIs</code>
+</p>
+
+<p>
+  🔗 <a href="https://github.com/vaibhavvm2005/task-manager-pro"><b>[ ➔ View Full-Stack Repository ]</b></a>
+</p>
+
+<br />
+
+<div align="center">
+  <img src="assets/cyber-divider.svg" width="100%" />
+</div>
+
+<br />
+
+## 🔭 // 05. CURRENT FOCUS
+
+```
+CURRENTLY EXPLORING
+├── → Advanced Machine Learning (Deep architectures, feature stores, automated feature selection)
+├── → Data Science (High-dimensional statistical modeling & data analytics pipelines)
+├── → Generative AI (Streaming LLM workflows & acoustic speech architectures)
+├── → MLOps (Continuous training, model drift detection, automated CI/CD)
+├── → Cloud Deployment (Containerized microservices & scalable deployments on AWS)
+└── → Backend Engineering (High-throughput async APIs with FastAPI & caching)
+```
+
+<br />
+
+<div align="center">
+  <img src="assets/cyber-divider.svg" width="100%" />
+</div>
+
+<br />
+
+## 📊 // 06. GITHUB METRICS
 
 <div align="center">
 
+  <!-- GITHUB METRICS DASHBOARD -->
   <table border="0">
     <tr>
       <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=vaibhavvm2005&show_icons=true&theme=tokyonight&hide_border=false&title_color=e8ff54&icon_color=e8ff54&text_color=9e97b8&bg_color=070414&border_color=1f1352" alt="GitHub Profile Metrics" width="100%" />
+        <img src="https://github-readme-stats.vercel.app/api?username=vaibhavvm2005&show_icons=true&theme=tokyonight&hide_border=false&title_color=00F0FF&icon_color=00F0FF&text_color=94A3B8&bg_color=04060A&border_color=1A2234" alt="GitHub Profile Metrics" width="100%" />
       </td>
       <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavvm2005&layout=compact&theme=tokyonight&hide_border=false&title_color=e8ff54&text_color=9e97b8&bg_color=070414&border_color=1f1352" alt="Top Languages Metrics" width="100%" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavvm2005&layout=compact&theme=tokyonight&hide_border=false&title_color=00F0FF&text_color=94A3B8&bg_color=04060A&border_color=1A2234" alt="Top Languages Metrics" width="100%" />
       </td>
     </tr>
     <tr>
       <td align="center" colspan="2">
-        <img src="https://streak-stats.demolab.com/?user=vaibhavvm2005&theme=tokyonight&hide_border=false&stroke=e8ff54&ring=e8ff54&fire=d4f63d&currStreakNum=e8ff54&sideNums=e8ff54&sideLabels=9e97b8&currStreakLabel=e8ff54&background=070414&border_radius=8" alt="GitHub Streak Metrics" width="100%" />
+        <img src="https://streak-stats.demolab.com/?user=vaibhavvm2005&theme=tokyonight&hide_border=false&stroke=00F0FF&ring=00F0FF&fire=00F0FF&currStreakNum=00F0FF&sideNums=00F0FF&sideLabels=94A3B8&currStreakLabel=00F0FF&background=04060A&border_radius=8" alt="GitHub Streak Metrics" width="100%" />
       </td>
     </tr>
   </table>
 
   <br />
 
+  <!-- CONTRIBUTION SNAKE -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vaibhavvm2005/vaibhavvm2005/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vaibhavvm2005/vaibhavvm2005/output/github-contribution-grid-snake.svg">
-    <img alt="Contribution Snake Radar" src="https://raw.githubusercontent.com/vaibhavvm2005/vaibhavvm2005/output/github-contribution-grid-snake-dark.svg" width="100%" />
+    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/vaibhavvm2005/vaibhavvm2005/output/github-contribution-grid-snake-dark.svg" width="100%" />
   </picture>
 
 </div>
 
----
+<br />
+
+<div align="center">
+  <img src="assets/cyber-divider.svg" width="100%" />
+</div>
+
+<br />
+
+## 🌐 // 07. CONNECT
+
+> *Have an idea, opportunity, or interesting problem? Let's connect.*
+
+<br />
 
 <div align="center">
 
-  <!-- ======================== RIO FOOTER CTA ======================== -->
-  <img src="assets/footer-cta.svg" alt="Let's build something exceptional." width="100%" />
-
-  <br /><br />
-
   <a href="https://github.com/vaibhavvm2005" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-070414?style=for-the-badge&logo=github&logoColor=E8FF54&labelColor=070414&color=140A38" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-04060A?style=for-the-badge&logo=github&logoColor=00F0FF&labelColor=04060A&color=1A2234" alt="GitHub Profile" />
   </a>
   &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/vaibhav-madival" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-070414?style=for-the-badge&logo=linkedin&logoColor=0077B5&labelColor=070414&color=140A38" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-04060A?style=for-the-badge&logo=linkedin&logoColor=0077B5&labelColor=04060A&color=1A2234" alt="LinkedIn Profile" />
   </a>
   &nbsp;&nbsp;
   <a href="mailto:vaibhavmadival331@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-070414?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=070414&color=140A38" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-04060A?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=04060A&color=1A2234" alt="Email Direct" />
   </a>
-
-  <br /><br />
-
-  <p><i>"Data Science • Machine Learning Engineering • Production Intelligence"</i></p>
 
 </div>
