@@ -38,6 +38,10 @@ I am a final-year <strong>Computer Science & Engineering (Data Science)</strong>
 My engineering philosophy is simple: machine learning is only as valuable as the software systems running it. I spend my time going beyond Jupyter notebooks — optimizing feature pipelines, tracking experiments with MLflow, wrapping models into sub-25ms asynchronous FastAPI microservices, containerizing with Docker, and deploying to AWS.
 </p>
 
+<div align="center" class="my-6">
+  <img src="assets/tech-web-circle.svg" alt="AI Neural Web Architecture" width="320" class="rounded-full shadow-2xl shadow-cyan-950/40 border border-slate-800/80" />
+</div>
+
 <br />
 
 <table class="w-full bg-slate-950 border border-slate-800 rounded-xl overflow-hidden shadow-xl" width="100%">
