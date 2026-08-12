@@ -39,7 +39,7 @@ My engineering philosophy is simple: machine learning is only as valuable as the
 </p>
 
 <div align="center" class="my-6">
-  <img src="assets/tech-web-circle.svg" alt="AI Neural Web Architecture" width="320" class="rounded-full shadow-2xl shadow-cyan-950/40 border border-slate-800/80" />
+  <img src="assets/tech-web-circle.svg" alt="Technical Radial Network Architecture" width="420" class="rounded-2xl shadow-2xl border border-slate-800/80" />
 </div>
 
 <br />
