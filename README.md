@@ -128,7 +128,7 @@ My engineering philosophy is simple: machine learning is only as valuable as the
 
 <br />
 
-<h2 style="font-family: 'Times New Roman', Times, 'Georgia', serif;" class="text-2xl font-bold text-slate-100 flex items-center gap-2 border-b border-slate-800 pb-2">🛠️ // Tech Stack</h2>
+<h2 style="font-family: 'Times New Roman', Times, 'Georgia', serif;" class="text-2xl font-bold text-slate-100 flex items-center gap-2 border-b border-slate-800 pb-2">🛠️ Tech Stack</h2>
 
 <div align="center" class="my-6">
   <img src="assets/technology.svg" alt="Technology & Engineering Lab" width="420" class="rounded-xl border border-slate-800/80 shadow-2xl shadow-cyan-950/30" />
