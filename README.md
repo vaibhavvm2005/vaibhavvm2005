@@ -234,22 +234,48 @@ My engineering philosophy is simple: machine learning is only as valuable as the
 
 <br />
 
-### `PROJECT 02` — Mental Health AI / Voice Assistant
-> **Speech-interactive AI platform with automated zero-knowledge PII sanitization and contextual sentiment analysis.**
+### `PROJECT 02` —  AI Log Detective
+> ** AI-powered software debugging and repair platform for automated log analysis, root-cause detection, and code-fix verification.**
 
 <ul class="text-slate-300 space-y-2 my-3 list-disc pl-5">
-  <li><strong>Speech Processing</strong>: Integrates <strong>OpenAI Whisper</strong> for high-accuracy phonetic transcription from real-time microphone input.</li>
-  <li><strong>Privacy-Preserving PII Redaction</strong>: Integrates <strong>Microsoft Presidio</strong> to detect and anonymize personal identifiers (names, locations, contact info) prior to text processing.</li>
-  <li><strong>Empathetic Interaction Engine</strong>: Analyzes contextual sentiment and generates structured supportive responses in real time.</li>
-  <li><strong>Interactive Interface</strong>: Developed with <strong>Streamlit</strong> for responsive, cross-platform client interaction.</li>
+  <li>
+    <strong>Intelligent Log Analysis:</strong>
+    Analyzes application logs to identify errors, detect anomalies,
+    and group related failures.
+  </li>
+  <li>
+    <strong>Root-Cause Detection:</strong>
+    Uses AI-assisted analysis to explain software errors and identify
+    potential causes of application failures.
+  </li>
+  <li>
+    <strong>Automated Code Repair:</strong>
+    Generates suggested code fixes to help developers troubleshoot
+    and resolve software issues.
+  </li>
+  <li>
+    <strong>Fix Testing and Verification:</strong>
+    Supports sandbox-based testing and verification of proposed
+    fixes before generating a repaired project.
+  </li>
+  <li>
+    <strong>Interactive Dashboard:</strong>
+    Provides a web interface for reviewing log analysis, debugging
+    explanations, and repair results.
+  </li>
 </ul>
 
 <div class="flex flex-wrap gap-2 my-3">
-  <code>Python</code> • <code>OpenAI Whisper</code> • <code>Microsoft Presidio</code> • <code>Streamlit</code> • <code>NLP</code>
+  <code>Python</code> •
+  <code>FastAPI</code> •
+  <code>React</code> •
+  <code>Vite</code> •
+  <code>AI/ML</code> •
+  <code>SQLite</code>
 </div>
 
 <p class="mt-3">
-  <a href="https://github.com/vaibhavvm2005/mental-health-ai-assistant">
+  <a href="https://github.com/vaibhavvm2005/ai-log-detective">
     <img src="https://img.shields.io/badge/GitHub-View_Repository_↗-000000?style=flat-square&logo=github&logoColor=00F0FF&labelColor=000000&color=161B26" alt="View Repository" />
   </a>
 </p>
