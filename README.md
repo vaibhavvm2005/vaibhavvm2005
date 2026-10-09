@@ -223,7 +223,7 @@ My engineering philosophy is simple: machine learning is only as valuable as the
 </div>
 
 <p class="mt-3">
-  <a href="https://github.com/vaibhavvm2005/customer-churn-prediction">
+  <a href="https://github.com/vaibhavvm2005/customer-churn-prediction-api.git">
     <img src="https://img.shields.io/badge/GitHub-View_Repository_↗-000000?style=flat-square&logo=github&logoColor=00F0FF&labelColor=000000&color=161B26" alt="View Repository" />
   </a>
 </p>
