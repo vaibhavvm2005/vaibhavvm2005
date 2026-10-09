@@ -286,22 +286,24 @@ My engineering philosophy is simple: machine learning is only as valuable as the
 
 <br />
 
-### `PROJECT 03` — AgriGita — Smart Water Management System
-> **IoT telemetry acquisition and edge machine learning system on NVIDIA Jetson Nano for automated precision irrigation.**
+
+### `PROJECT 03` — Network Intrusion Detection System (NIDS)
+
+> **Machine learning-based cybersecurity system for analyzing network traffic and identifying potential intrusion attempts.**
 
 <ul class="text-slate-300 space-y-2 my-3 list-disc pl-5">
-  <li><strong>Edge Telemetry Processing</strong>: Deployed on the <strong>NVIDIA Jetson Nano</strong> platform to process multi-channel soil moisture, ambient humidity, and temperature telemetry.</li>
-  <li><strong>Dynamic Threshold Actuation</strong>: Implements dynamic threshold heuristics to actuate automated relay solenoid valves based on environmental conditions.</li>
-  <li><strong>Resource Optimization</strong>: Achieves up to <strong>40% water savings</strong> while maintaining optimal soil hydration levels for agricultural yields.</li>
+  <li><strong>Network Traffic Analysis</strong>: Uses Python-based data processing techniques to analyze network traffic data and identify suspicious patterns.</li>
+  <li><strong>Machine Learning Detection</strong>: Applies machine learning techniques to classify network traffic and support the identification of potential malicious activity.</li>
+  <li><strong>Model Evaluation</strong>: Evaluates detection performance using appropriate metrics to assess the model's ability to distinguish normal and suspicious traffic.</li>
 </ul>
 
 <div class="flex flex-wrap gap-2 my-3">
-  <code>NVIDIA Jetson Nano</code> • <code>IoT Sensors</code> • <code>Python</code> • <code>Edge AI</code> • <code>Hardware Relays</code>
+  <code>Python</code> • <code>Machine Learning</code> • <code>Pandas</code> • <code>NumPy</code> • <code>Scikit-learn</code> • <code>Cybersecurity</code>
 </div>
 
 <p class="mt-3">
-  <a href="https://github.com/vaibhavvm2005/agrigita-smart-water-management">
-    <img src="https://img.shields.io/badge/GitHub-View_Repository_↗-000000?style=flat-square&logo=github&logoColor=00F0FF&labelColor=000000&color=161B26" alt="View Repository" />
+  <a href="https://github.com/vaibhavvm2005/NIDS_ML_PROJECT" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/GitHub-View_Repository_%E2%86%97-000000?style=flat-square&logo=github&logoColor=00F0FF&labelColor=000000&color=161B26" alt="View Repository" />
   </a>
 </p>
 
